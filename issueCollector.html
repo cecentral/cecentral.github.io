@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="container col-sm-offset-2">
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center h3">New Certificate Request</div>
+        </div>
+
+        <form class="form-horizontal container-fluid">
+
+            <div class="row">
+                <label for="creditType" class="col-sm-2 control-label">Credit Type</label>
+                <div class="col-sm-10 form-group">
+                    <input id="creditType" class="form-control" type="text" placeholder="(e.g. AMA Category 1)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="proffessionType" class="col-sm-2 control-label">Profession Type</label>
+                <div class="col-sm-10 form-group">
+                    <input id="proffessionType" class="form-control" type="text" placeholder="(e.g. Pharmacists)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="generalName" class="col-sm-2 control-label">General Name</label>
+                <div class="col-sm-10 form-group">
+                    <input id="generalName" class="form-control" type="text" placeholder="(e.g. CME)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="providerName" class="col-sm-2 control-label">Provider Name</label>
+                <div class="col-sm-10 form-group">
+                    <input id="providerName" class="form-control" type="text" placeholder="(e.g. University of North Texas Health Science Center)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="minutesPerUnit" class="col-sm-2 control-label">Minutes per unit</label>
+                <div class="col-sm-10 form-group">
+                    <input id="minutesPerUnit" class="form-control" type="text" placeholder="(e.g. 60)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="roundingType" class="col-sm-2 control-label">Rounding type:</label>
+                <div class="col-sm-10 form-group">
+                    <textarea id="roundingType" class="form-control" placeholder="deas with the automatic calculation of credits in regards to sessions" disabled></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="subTypeRequired" class="col-sm-2 control-label">Sub­type required?</label>
+                <div class="col-sm-10 form-group">
+                    <input id="subTypeRequired" class="form-control" type="text" placeholder="" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="creditInstructions" class="col-sm-2 control-label">Credit instructions</label>
+                <div class="col-sm-10 form-group">
+                    <textarea id="creditInstructions" class="form-control" type="text" placeholder="(OPTIONAL) (e.g. Must have CHES certification number in the Primary License/Certification Number field of CECentral Account.)" disabled></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="creditStatement" class="col-sm-2 control-label">Credit statement</label>
+                <div class="col-sm-10 form-group">
+                    <input id="creditStatement" class="form-control" type="text" placeholder="" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="certificateTemplate" class="col-sm-2 control-label">Certificate template</label>
+                <div class="col-sm-10 form-group">
+                    <input id="certificateTemplate" class="form-control" type="text" placeholder="(will use default if not provided)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="providerLogo" class="col-sm-2 control-label">Provider Logo</label>
+                <div class="col-sm-10 form-group">
+                    <input id="providerLogo" class="form-control" type="text" placeholder="(will use default if not provided)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="providerAddress" class="col-sm-2 control-label">Provider Address</label>
+                <div class="col-sm-10 form-group">
+                    <input id="providerAddress" class="form-control" type="text" placeholder="(will use default if not provided)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="authorizedBy" class="col-sm-2 control-label">Authorized By Name/Title</label>
+                <div class="col-sm-10 form-group">
+                    <input id="authorizedBy" class="form-control" type="text" placeholder="(will use default if not provided)" disabled>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="authorizedSignature" class="col-sm-2 control-label">Authorized By Signature</label>
+                <div class="col-sm-10 form-group">
+                    <input id="authorizedSignature" class="form-control" type="text" placeholder="(will use default if not provided)" disabled>
+                </div>
+            </div>
+
+    </form>
+</div>
+</div>
+
+<h2>JIRA Issue Collector Demo</h2>
+<a href="#" id="feedback-button" class='btn btn-primary btn-large'>Report feedback</a>
+
+<!-- JIRA Issue Collector - append this at the bottom of <body> -->
+<script type="text/javascript" src="https://<JIRA URL>/s/en_US-ydn9lh-418945332/803/1088/1.2/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?collectorId=d03d7bd1"></script>
+
+
+<!-- We will customize JIRA in the following script tag -->
+
+<script type="text/javascript">
+    // safely use jquery here since the issue collector will load it for you
+    $(document).ready(function() {
+
+        window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
+
+            // ==== feedback collector ====
+            '<collectorId_1>' : {
+
+                // === custom trigger function ===
+                triggerFunction : function( showCollectorDialog ) {
+                    $('#feedback_button').click( function(e) {
+                        e.preventDefault();
+                        showCollectorDialog();
+                    });
+                }
+
+                // === default and hidden field values ===
+                , fieldValues : {
+
+                    // default values
+                    summary : 'Feedback for new website designs'
+                    , description : 'The font doesn\'t quite look right'
+
+                    // hidden field value
+                    , priority : '2'
+
+                }
+
+            }
+
+            // ==== bug collector ====
+            , '<collectorId_2>' : {
+                // === custom trigger function ===
+
+                triggerFunction : function( showCollectorDialog ) {
+                    $('#bug_button').click( function(e) {
+                        e.preventDefault();
+                        showCollectorDialog();
+                    });
+                }
+
+
+                // === additional environment details ===
+                , environment : function() {
+
+                    var env_info = {};
+
+                    if ( window.ADDITIONAL_CUSTOM_CONTEXT ) {
+                        env_info[ 'Additional Context Information' ] = window.ADDITIONAL_CUSTOM_CONTEXT;
+                    }
+
+                    return env_info;
+                }
+                // === default field values ===
+                , fieldValues : function() {
+
+                    var values = {};
+
+                    var error_message = $('.error_message');
+                    if ( error_message.length !== 0 ) {
+
+                        // record error message from the page context rather than asking the user to enter it
+                        values[ 'summary' ] = error_message.children('.summary').text();
+                        values[ 'description' ] = error_message.children('.description').text();
+
+                    }
+
+                    return values;
+
+                }
+
+            }
+
+        });
+
+    });
+</script>
+</body>
+</html>
