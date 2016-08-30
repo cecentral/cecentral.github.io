@@ -14,3 +14,26 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('readme', 'PagesController@readMe');
+
+Route::get('summary', 'PagesController@summary');
+
+Route::get('activity/accreditation', 'PagesController@accreditation');
+
+Route::get('activity/details', 'PagesController@details');
+
+Route::get('activity/get-credit', 'PagesController@getCredit');
+
+Route::get('activity/location', 'PagesController@location');
+
+Route::get('activity/options', 'PagesController@options');
+
+Route::get('activity/outcomes', 'PagesController@outcomes');
+
+Route::get('activity/publishing-options', 'PagesController@publishingOptions');
+
+Route::get('activity/topics', 'PagesController@topics');
+
+Route::get('activity/locations-drop-down-select-box', 'PagesController@locationsDropDownSelectBox');
+
