@@ -37,3 +37,8 @@ Route::get('activity/topics', 'PagesController@topics');
 
 Route::get('activity/locations-drop-down-select-box', 'PagesController@locationsDropDownSelectBox');
 
+Route::get('navigation', function() {
+
+    return view('layouts.navigation');
+
+});
