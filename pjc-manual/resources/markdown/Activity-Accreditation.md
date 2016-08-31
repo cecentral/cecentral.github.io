@@ -1,6 +1,6 @@
 #Activities: Accreditation
 
-![image of accreditation](https://github.com/cecentral/Project-Central-User-Manual/blob/master/img/activity/accreditation.png)
+![image of accreditation](../img/activity/accreditation.png)
 
 ###Designed to Change Competence?
 ```level 1 in accending precedence```
@@ -8,17 +8,17 @@
 
   ```This box is automatically checked when the "Designed to Change Competence?" check box is checked.```
 
-<hr>
+---
 
 ###Designed to Change Performance?
 ```level 2 in accending precendence```
 
-<hr>
+---
 
 ###Designed to Change Patient Outcomes?
 ```level 3 in accending precendence```
 
-<hr>
+---
 
 ###ACGME Competencies
 - Patient Care
@@ -28,7 +28,7 @@
 - Professionalism
 - Systems-based practice
 
-<hr>
+---
 
 ###IOM Competencies
 - Provide patient-centered care
@@ -37,7 +37,7 @@
 - Apply quality improvement
 - Utilitze informatics
 
-<hr>
+---
 
 ###IPE Competencies
 - Values/Ethics for Interprofessional Practice

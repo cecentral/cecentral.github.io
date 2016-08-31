@@ -22,9 +22,18 @@ class PagesController extends Controller
         return view('summary')->with('fileContents', $fileContents);
     }
 
+    public function index(Parsedown $parsedown) {
+        $fileContents = File::get('../resources/markdown/index.md');
+        $summaryContents = File::get('../resources/markdown/SUMMARY.md');
+        $readMeContents = File::get('../resources/markdown/README.md');
+        return view('index')->with('fileContents', $fileContents)->with('summaryContents', $summaryContents)->with('readMeContents', $readMeContents);
+    }
+
     public function accreditation(Parsedown $parsedown) {
         $fileContents = File::get('../resources/markdown/Activity-Accreditation.md');
-        return view('activity.accreditation')->with('fileContents', $fileContents);
+        $summaryContents = File::get('../resources/markdown/SUMMARY.md');
+        $readMeContents = File::get('../resources/markdown/README.md');
+        return view('activity.accreditation')->with('fileContents', $fileContents)->with('summaryContents', $summaryContents)->with('readMeContents', $readMeContents);
     }
 
     public function details(Parsedown $parsedown) {

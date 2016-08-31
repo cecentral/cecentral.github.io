@@ -1,44 +1,9 @@
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  color: #243040;
-  background-color: #ffffff;
-}
-
-body, html {
-  /* prevent horizontal scrolling */
-  overflow-x: hidden;
-}
-
-a {
-  color: #9cb3a8;
-  text-decoration: none;
-}
-
-/* -------------------------------- 
+/* --------------------------------
 
 Main Components 
 
 -------------------------------- */
+
 main {
   position: relative;
   z-index: 2;
@@ -63,20 +28,7 @@ main {
   -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
   transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
 }
-main h1, main p {
-  text-align: center;
-}
-main h1 {
-  font-size: 2.6rem;
-  margin-bottom: 1em;
-}
-main p {
-  font-family: "Merriweather", serif;
-  color: #d6dfdb;
-  max-width: 450px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
+
 .navigation-is-open main {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
@@ -84,17 +36,7 @@ main p {
   -o-transform: translateX(100%);
   transform: translateX(100%);
 }
-@media only screen and (min-width: 768px) {
-  main {
-    padding: 250px 10%;
-  }
-  main h1 {
-    font-size: 3.6rem;
-  }
-  main p {
-    font-size: 2rem;
-  }
-}
+
 
 .cd-nav-trigger {
   position: fixed;
@@ -294,24 +236,7 @@ main p {
   -moz-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
   transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
 }
-.cd-nav h2 {
-  position: relative;
-  margin-bottom: 1.7em;
-  font-size: 1.3rem;
-  font-weight: 800;
-  color: #080b0f;
-  text-transform: uppercase;
-}
-.cd-nav h2::after {
-  /* bottom separation line */
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -20px;
-  height: 1px;
-  width: 60px;
-  background-color: currentColor;
-}
+
 .cd-nav .cd-primary-nav {
   margin-top: 60px;
 }

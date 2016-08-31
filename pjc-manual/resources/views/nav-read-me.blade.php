@@ -8,17 +8,15 @@
 
 ?>
 
-@extends('layouts.navigation')
-
-@section('markdown')
+{{--@section('nav-read-me')--}}
 
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
 
-            {!! App\Parsedown::instance()->setMarkupEscaped(true)->setBreaksEnabled(true)->text($fileContents) !!}
+            {!! App\Parsedown::instance()->setMarkupEscaped(true)->setBreaksEnabled(true)->text($readMeContents) !!}
 
         </div>
     </div>
 
-@endsection
+{{--@endsection--}}
 

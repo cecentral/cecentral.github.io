@@ -1,4 +1,4 @@
-# Project Central User Manual
+# Index
 
 ---
 
