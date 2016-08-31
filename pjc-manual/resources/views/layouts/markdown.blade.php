@@ -14,10 +14,13 @@
     <style>
         html, body {
             background-color: #fff;
-            color: #636b6f;
+            color: #495155;
+            /*color: #636b6f;*/
             font-family: 'Raleway';
-            font-weight: 100;
-            height: 100vh;
+            font-weight: 600;
+            height: 200vh;
+            font-size: 110%;
+            line-height: 125%;
             margin: 0;
         }
 
@@ -62,15 +65,48 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        h1, h3 {
+
+            color: #2b3337;
+
+        }
+
+
+        code {
+
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            background-color: rgba(77, 228, 255, 0.50);
+            border-radius: 5px;
+
+        }
+
+        blockquote {
+
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            background-color: rgba(77, 228, 255, 0.50);
+            border-radius: 10px;
+
+        }
+
     </style>
 </head>
 <body>
-<div class = container-fluid>
-<div class="flex-center position-ref">
+    <div class = "container">
+        <div class="flex-center position-ref">
 
-    @yield('markdown')
+            @yield('markdown')
 
+        </div>
 </div>
-</div>
+
+    <script type="text/javascript" src="https://cecentral.atlassian.net/s/1136c0e400521f6211e2d32621089b59-T/tn9djs/100011/c/1000.0.9/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=b27e03cf"></script>
+
 </body>
 </html>

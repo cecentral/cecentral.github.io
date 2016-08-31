@@ -2,6 +2,6 @@
 
 ---
 
-![Image of Get Credit](https://github.com/cecentral/Project-Central-User-Manual/blob/master/img/activity/get_credit.png)
+![Image of Get Credit](../img/activity/get_credit.png)
 
 ```stub```

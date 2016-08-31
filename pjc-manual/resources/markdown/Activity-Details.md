@@ -1,10 +1,10 @@
 # Activities: Details
 
-![image of details](https://github.com/cecentral/Project-Central-User-Manual/blob/master/img/activity/details.png)
+![image of details](../img/activity/details.png)
 
 ### Activity Code Setup
 
-<hr>
+---
 
 **Format**: _**```ABC12345-67```**_
 
@@ -59,32 +59,32 @@
 	>box must be un-checked.
 
 
-<hr>
+---
 
 ###Title
 - ```Enter a title to use for the activity.```
 
-<hr>
+---
 
 ###Subtitle
 - ```Enter a short descriptive sentence to enhance the title of the activity.```
 
-<hr>
+---
 
 ###Keywords
 - ```Enter terms you wish to use in the search function of your site.```
 
-<hr>
+---
 
 ###Accounting Code
 - ```To be entered by the [financial officer](link to glossary term).```
 
-<hr>
+---
 
 ###Coordinator
 - ```Select an activities and events coordinator from a [drop-down select box](http://link-to-glossary-term.com).```
 
-<hr>
+---
 
 ###Staff Associate
 - ```Select an activities and events coordinator from a [drop-down select box](link to glossary term).```
