@@ -18,29 +18,29 @@ require('laravel-elixir-vue');
 elixir(function(mix) {
 
     mix.sass('app.scss');
-    mix.sass('navigation.scss');
-
-    mix.styles('style.css');
-    mix.styles('reset.css');
+    // mix.sass('navigation.scss');
+    //
+    // mix.styles('style.css');
+    // mix.styles('reset.css');
 
     mix.scripts('app.js');
-    mix.scripts('bootstrap.js');
-    mix.scripts('jquery-2.1.1.js');
-    mix.scripts('main.js');
-    mix.scripts('modernizr.js');
+    // mix.scripts('bootstrap.js');
+    // mix.scripts('jquery-2.1.1.js');
+    // mix.scripts('main.js');
+    // mix.scripts('modernizr.js');
 
     mix.webpack('app.js');
 
     mix.version([
         'css/app.css',
-        'css/navigation.css',
-        'css/style.css',
-        'css/reset.css',
-        'js/app.js',
-        'js/bootstrap.js',
-        'js/jquery-2.1.1.js',
-        'js/main.js',
-        'js/modernizr.js'
+        // 'css/navigation.css',
+        // 'css/style.css',
+        // 'css/reset.css',
+        'js/app.js'//,
+        // 'js/bootstrap.js',
+        // 'js/jquery-2.1.1.js',
+        // 'js/main.js',
+        // 'js/modernizr.js'
     ]);
 
 });

@@ -37,4 +37,6 @@ Route::get('activity/topics', 'PagesController@topics');
 
 Route::get('activity/locations-drop-down-select-box', 'PagesController@locationsDropDownSelectBox');
 
-Route::get('navigation', 'PagesController@index');
+Route::get('flexbox', function() {
+    return view('layouts.flexlayout');
+});
