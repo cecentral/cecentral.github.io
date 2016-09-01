@@ -19,6 +19,8 @@ Route::get('readme', 'PagesController@readMe');
 
 Route::get('summary', 'PagesController@summary');
 
+Route::get('activity', 'PagesController@summary');
+
 Route::get('activity/accreditation', 'PagesController@accreditation');
 
 Route::get('activity/details', 'PagesController@details');

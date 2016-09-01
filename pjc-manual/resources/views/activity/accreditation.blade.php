@@ -8,7 +8,7 @@
 
 ?>
 
-@extends('layouts.navigation')
+@extends('layouts.markdown')
 
 @section('markdown')
 
