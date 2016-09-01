@@ -24,7 +24,6 @@ class PagesController extends Controller
         return view('summary')->with('fileContents', $fileContents)->with('title', $title);
     }
 
-
     public function accreditation(Parsedown $parsedown) {
         $title = "Accreditation";
         $fileContents = File::get('../resources/markdown/Activity-Accreditation.md');

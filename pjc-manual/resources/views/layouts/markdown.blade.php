@@ -14,6 +14,8 @@
     <link href="{{ elixir('css/app.css') }}" rel="stylesheet" type="text/css">
     <script src="{{ elixir('js/app.js') }}" type="text/javascript"></script>
 
+    <!--TODO add styles to separate file and mix with elixir as normal css-->
+
     <style>
 
         .navbar-brand {
@@ -109,7 +111,6 @@
         }
 
     </style>
-
 
 </head>
 <body>
