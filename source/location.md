@@ -4,7 +4,7 @@ section: sub-page-body
 pageTitle: Location
 ---
 
-#Activities: Location
+#Activities: Location Edit
 
 ![image of location](../img/activity/location.png)
 
