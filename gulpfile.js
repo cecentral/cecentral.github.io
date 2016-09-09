@@ -17,18 +17,4 @@ elixir(function(mix) {
             proxy: null,
             files: [ 'build_' + env + '/**/*' ]
         });
-
-
-    // mix.styles('supplemental.css')
-    //     .exec('jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
-    //     .browserSync({
-    //         port: port,
-    //         server: { baseDir: 'build_' + env },
-    //         proxy: null,
-    //         files: [ 'build_' + env + '/**/*' ]
-    //     });
-
-    // var destination;
-    // mix.copy('./source/_assets/supplemental.css', destination)
-
 });
