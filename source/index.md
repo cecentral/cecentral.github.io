@@ -8,10 +8,12 @@ pageTitle: Guidebook
 
 ---
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+**Version 0.01**
+
+cecentral.github.io "Guidebook" is in `alpha testing`.
+
+Many features are disabled / under development. Currently included features are not guaranteed to be in the next alpha release.  Subheading **Activities** is functional, though some items may be `stubs`.  The `New Certificate Requests`
+button is not tested.  Please contact us by e-mail after filing requests.
 
 ---
 
@@ -23,15 +25,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Details](/details) <!--cecentral.github.io/details/index.html)-->
-  - [Publishing options](/publishing-options) <!--cecentral.github.io/publishing-options/index.html)-->
-  - [Accreditation](/accreditation) <!--cecentral.github.io/accreditation/index.html)-->
-  - [Location](/location) <!--cecentral.github.io/location/index.html)-->
-  - [Options](/options) <!--ccentral.github.io/options/index.html)-->
-  - [Get Credit](/get-credit) <!--ccentral.github.io/get-credit/index.html)-->
-  - [Outcomes](/outcomes) <!--ccentral.github.io/outcomes/index.html)-->
-  - [Topics](/topics) <!--ccentral.github.io/topics/index.html)-->
-  - [Place Holder](/index) <!--ccentral.github.io/index.html)-->
+  - [Details](/details)
+  - [Publishing options](/publishing-options)
+  - [Accreditation](/accreditation)
+  - [Location](/location)
+  - [Options](/options)
+  - [Get Credit](/get-credit)
+  - [Outcomes](/outcomes)
+  - [Topics](/topics)
+  - [Place Holder](/index)
   
 ---
 
@@ -39,11 +41,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
+  - [`stub`](/#)
 
 ---
 
@@ -51,11 +49,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
+  - [`stub`](/#)
 
 ---
 
@@ -63,11 +57,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
+  - [`stub`](/#)
 
 ---
 
@@ -75,11 +65,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
+  - [`stub`](/#)
 
 ---
 
@@ -87,11 +73,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
+  - [`stub`](/#)
 
 ---
 
@@ -100,9 +82,4 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 ---
 
-  - [Lorem](/#)
-  - [ipsum](/#)
-  - [dolor](/#)
-  - [sit](/#)
-  - [amet](/#)
-
+  - [`stub`](/#)
