@@ -14,9 +14,11 @@
 
 ##Merging New or Edited Documentation
 ---
-- Git pull the changes to the development branch to your local version of the repository.
-- Write merge comments, approve and merge from the repository on github.com.
-- Git pull the changes to jigsaw-master to your local version of the repository.
-- Run the build process in your local version of the repository (see **Building the Site**).
-- Git push the changes in jigsaw-master to the remote at cecentral.github.io.git.
-- Git subtree push the new build to the master branch on the remote at cecentral.github.io.git.
+- `git pull` changes to branch: `development` into your local repository.
+- File a `pull request` to merge branch: `development` into branch: `jigsaw-master` on github.com.
+- Write `merge comments`, approve and merge the `pull request` from the repository on github.com.
+- `git pull` changes to branch: `jigsaw-master` into your local repository.
+- `gulp && jigsaw build production` in branch: `jigsaw-master` of your local repository (see **Building the Site**).
+- `git add build_production && git commit -m "Build for deploy"` in branch `jigsaw-master` of your local repository.
+- `git push -u origin jigsaw-master` changes to branch: `jigsaw-master` on github.com.
+- `git subtree push --prefix build_production origin master` to push the new build to branch: `master` on github.com.
