@@ -8,40 +8,25 @@ pageTitle: Guidebook
 
 ---
 
-**Version 0.01**
+##Version 0.01 _alpha_
 
-cecentral.github.io "Guidebook" is in `alpha testing`.
-
-Many features are disabled / under development. Currently included features are not guaranteed to be in the next alpha release.  Subheading **Activities** is functional, though some items may be `stubs`.  The `New Certificate Requests`
-button is not tested.  Please contact us by e-mail after filing requests.
-
----
-
-# Summary
+    Cecentral.github.io "Guidebook" is in alpha testing. Many features are disabled / under 
+    development. Currently included features are not guaranteed to be in the next alpha 
+    release. Subheading "Activities" navigates to functional portions of the site, though 
+    some items may be stubs. The "Credit Type Requests" button is being tested live. Please 
+    contact us by e-mail after filing requests.
 
 ---
 
-##Activities
+#Summary
 
 ---
 
-  - [Details](/details)
-  - [Publishing options](/publishing-options)
-  - [Accreditation](/accreditation)
-  - [Location](/location)
-  - [Options](/options)
-  - [Get Credit](/get-credit)
-  - [Outcomes](/outcomes)
-  - [Topics](/topics)
-  - [Place Holder](/index)
-  
+##[Activities](/activities)
+
 ---
 
 ##Members
-
----
-
-  - [`stub`](/#)
 
 ---
 
@@ -49,15 +34,7 @@ button is not tested.  Please contact us by e-mail after filing requests.
 
 ---
 
-  - [`stub`](/#)
-
----
-
 ##Reports
-
----
-
-  - [`stub`](/#)
 
 ---
 
@@ -65,21 +42,10 @@ button is not tested.  Please contact us by e-mail after filing requests.
 
 ---
 
-  - [`stub`](/#)
-
----
-
 ##Ideas
 
 ---
 
-  - [`stub`](/#)
-
----
-
-
 ##Tools
 
 ---
-
-  - [`stub`](/#)

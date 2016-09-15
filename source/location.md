@@ -9,7 +9,7 @@ pageTitle: Location
 ![image of location](../img/activity/location.png)
 
 
-You can see information about the [locations drop-down-select-box](../locations-drop-down-select-box) here.
+You can see information about the locations `drop-down-select-box` [here](../locations-drop-down-select-box).
 
 
 
