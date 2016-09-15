@@ -21,65 +21,30 @@ button is not tested.  Please contact us by e-mail after filing requests.
 
 ---
 
-##Activities
+##[Activities](/activities)
 
 ---
 
-  - [Details](/details)
-  - [Publishing options](/publishing-options)
-  - [Accreditation](/accreditation)
-  - [Location](/location)
-  - [Options](/options)
-  - [Get Credit](/get-credit)
-  - [Outcomes](/outcomes)
-  - [Topics](/topics)
-  - [Place Holder](/index)
-  
----
-
-##Members
+##[Members](/members)
 
 ---
 
-  - [`stub`](/#)
+##[Clients](/clients)
 
 ---
 
-##Clients
+##[Reports](/reports)
 
 ---
 
-  - [`stub`](/#)
+##[Finance](/finance)
 
 ---
 
-##Reports
+##[Ideas](/ideas)
 
 ---
 
-  - [`stub`](/#)
+##[Tools](/tools)
 
 ---
-
-##Finance
-
----
-
-  - [`stub`](/#)
-
----
-
-##Ideas
-
----
-
-  - [`stub`](/#)
-
----
-
-
-##Tools
-
----
-
-  - [`stub`](/#)
