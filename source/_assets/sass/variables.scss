@@ -51,7 +51,7 @@ html, body {
   color: #495155;
   /*color: #636b6f;*/
   font-family: 'Raleway';
-  font-weight: 600;
+  font-weight: 300;
   height: 200vh;
   font-size: 110%;
   line-height: 125%;
@@ -90,7 +90,7 @@ html, body {
   color: #636b6f;
   padding: 0 25px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -100,9 +100,21 @@ html, body {
   margin-bottom: 30px;
 }
 
-h1, h3 {
+h1, h2, h3 {
 
   color: #2b3337;
+
+}
+
+h1 > a, h2 > a, h3 > a{
+
+  color: #2b3337;
+
+}
+
+h2 > a{
+
+  font-weight: 300 !important;
 
 }
 
@@ -113,7 +125,9 @@ code {
   padding-right: 1px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: rgba(77, 228, 255, 0.50);
+  //background-color: rgba(77, 228, 255, 0.50);
+  background-color: rgba(9, 67, 112, 0.25);
+  color: #6cab36;
   border-radius: 5px;
 
 }
@@ -124,7 +138,9 @@ blockquote {
   padding-right: 1px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: rgba(77, 228, 255, 0.50);
+  //background-color: rgba(77, 228, 255, 0.50);
+  background-color: rgba(9, 67, 112, 0.25);
+  color: #6cab36;
   border-radius: 10px;
 
 }

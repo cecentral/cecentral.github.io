@@ -8,4 +8,4 @@ pageTitle: Outcomes
 
 ![image of outcomes](../img/activity/outcomes.png)
 
-```ToDo -> include text about outcomes```
+`ToDo -> include text about outcomes`
