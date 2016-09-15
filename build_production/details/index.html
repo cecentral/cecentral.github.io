@@ -9,7 +9,7 @@
     <title>Details</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
@@ -69,7 +69,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
                         <li><a href="/">Table of Contents</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Activities</a></li>
+                        <li><a href="/activities" class="btn pull-left">Activities</a></li>
                         <li><a href="#" class="btn disabled pull-left" disabled>Members</a></li>
                         <li><a href="#" class="btn disabled pull-left" disabled>Clients</a></li>
                         <li><a href="#" class="btn disabled pull-left" disabled>Reports</a></li>
@@ -96,106 +96,104 @@
 
         <div class="col-lg"><h1>Activities: Details</h1>
 <p><img src="../img/activity/details.png" alt="image of details" /></p>
-<h3>Activity Code Setup</h3>
+<h2>Activity Code Setup</h2>
 <hr />
 <p><strong>Format</strong>: <em><strong><code>ABC12345-67</code></strong></em></p>
+<hr />
 <ul>
 <li>
-<p><em>The first letter <code>(A)</code> represents the <code>type of credit</code> offered by the activity.</em></p>
+<p><code>A</code> ( <em>character 1</em> ) represents the <code>type of credit</code> offered by the activity.</p>
 <ul>
-<li><strong>M</strong>: <code>CME</code></li>
-<li><strong>P</strong>: <code>CPE</code></li>
-<li><strong>N</strong>: <code>CNE</code></li>
-<li><strong>D</strong>: <code>CDE</code></li>
-<li><strong>T</strong>: <code>Osteopathic</code></li>
-<li><strong>Y</strong>: <code>Physical Therapy</code></li>
-<li><strong>A</strong>: <code>IACET</code></li>
-<li><strong>X</strong>: <code>Multi-Disciplinary</code></li>
-<li><strong>H</strong>: <code>Public Health</code></li>
-<li><strong>W</strong>: <code>Non-accredited</code></li>
+<li><code>M</code>: CME</li>
+<li><code>P</code>: CPE</li>
+<li><code>N</code>: CNE</li>
+<li><code>D</code>: CDE</li>
+<li><code>T</code>: Osteopathic</li>
+<li><code>Y</code>: Physical Therapy</li>
+<li><code>A</code>: IACET</li>
+<li><code>X</code>: Multi-Disciplinary</li>
+<li><code>H</code>: Public Health</li>
+<li><code>W</code>: Non-accredited</li>
 </ul>
 </li>
+</ul>
+<hr />
+<ul>
 <li>
-<p><em>The second letter <code>(B)</code> represents the <code>activity type</code>.</em></p>
+<p><code>B</code> ( <em>character 2</em> ) represents the <code>activity type</code>.</p>
+</li>
+<li>
+<p><strong>E</strong>: <code>[Enduring]</code> </p>
 <ul>
-<li><strong>E</strong>: <code>[Enduring]</code> 
-<ul>
-<li><code>Internet</code></li>
-<li><code>Print</code></li>
-<li><code>Journal</code></li>
-<li><code>CD/DVD</code></li>
-<li><code>Other</code></li>
-<li><code>Perform.(ance) Improvement</code></li>
-</ul></li>
+<li>Internet</li>
+<li>Print</li>
+<li>Journal</li>
+<li>CD/DVD</li>
+<li>Other</li>
+<li>Perform.(ance) Improvement    </li>
+</ul>
+</li>
 <li><strong>L</strong>: <code>[Live]</code>
 <ul>
-<li><code>Course</code></li>
-<li><code>Internet</code></li>
-<li><code>Regularly Scheduled Series</code></li>
-<li><code>Commitee Learning</code></li>
-<li><code>Internet Search/Learning</code></li>
-<li><code>Learning from Teaching</code></li>
-<li><code>Manuscript Review</code></li>
-<li><code>Perform.(ance) Improvement</code></li>
-<li><code>Test Item Writing</code></li>
-<li><code>Undefined</code></li>
+<li>Course</li>
+<li>Internet</li>
+<li>Regularly Scheduled Series</li>
+<li>Commitee Learning</li>
+<li>Internet Search/Learning</li>
+<li>Learning from Teaching</li>
+<li>Manuscript Review</li>
+<li>Perform.(ance) Improvement</li>
+<li>Test Item Writing</li>
+<li>Undefined</li>
 </ul></li>
 </ul>
-</li>
-<li>
-<p><em>The third letter <code>(C)</code> represents the <code>team type</code>.</em></p>
+<hr />
 <ul>
-<li><strong>S</strong>: <code>State</code></li>
-<li><strong>N</strong>: <code>National</code> </li>
+<li>
+<p><code>C</code> ( <em>character 3</em> ) represents the <code>team type</code>.</p>
+<ul>
+<li><code>S</code>: State</li>
+<li><code>N</code>: National</li>
 </ul>
 </li>
+</ul>
+<hr />
+<ul>
 <li>
-<p><em>The first two numbers <code>(12)</code> represent the <code>fiscal year</code>.</em></p>
+<p><code>12</code> ( <em>characters 4 &amp; 5</em> ) represent the <code>fiscal year</code>.</p>
 </li>
 <li>
-<p><em>The third, fourth, and fifth numbers <code>(345)</code> are <code>assigned sequentially</code> in the order an activity is created.</em></p>
+<p><code>345</code> ( <em>characters 6,7 &amp; 8</em> ) are <strong>assigned sequentially</strong> in the order an activity is created.</p>
 </li>
-<li>
-<p><em>The sixth, and seventh numbers <code>(-67)</code> are <code>assigned sequentially</code> in the order an activity's child elements are created.</em></p>
+<li><code>-67</code> ( <em>characters 9, 10 &amp; 11</em> ) are <strong>assigned sequentially</strong> in the order an activity's child elements are created.</li>
+</ul>
 <p><strong>Notes</strong>:</p>
-<blockquote>
-<p>Once an activity has been created, the value of the &quot;Lock Activity Code&quot; check box will change from <em>&quot;false&quot;</em> to <em>&quot;true&quot;</em>,
-causing the box to become checked.  When the page refreshes, the &quot;Activity Code Setup&quot; form will be hidden.  To update an
-activity code you must click on the &quot;Activity Code Setup&quot; link to make the form appear.  Then the &quot;Lock Activity Code&quot; check
-box must be un-checked.</p>
-</blockquote>
-</li>
-</ul>
+<pre><code>Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page 
+refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the 
+"Lock Activity Code" check box must be un-checked.</code></pre>
+<h2>Title</h2>
 <hr />
-<h3>Title</h3>
-<ul>
-<li><code>Enter a title to use for the activity.</code></li>
-</ul>
+<pre><code>Enter a title to use for the activity.</code></pre>
 <hr />
-<h3>Subtitle</h3>
-<ul>
-<li><code>Enter a short descriptive sentence to enhance the title of the activity.</code></li>
-</ul>
+<h2>Subtitle</h2>
 <hr />
-<h3>Keywords</h3>
-<ul>
-<li><code>Enter terms you wish to use in the search function of your site.</code></li>
-</ul>
+<pre><code>Enter a short descriptive sentence to enhance the title of the activity.</code></pre>
 <hr />
-<h3>Accounting Code</h3>
-<ul>
-<li><code>To be entered by the [financial officer](link to glossary term).</code></li>
-</ul>
+<h2>Keywords</h2>
 <hr />
-<h3>Coordinator</h3>
-<ul>
-<li><code>Select an activities and events coordinator from a [drop-down select box](http://link-to-glossary-term.com).</code></li>
-</ul>
+<pre><code>Enter terms you wish to use in the search function of your site.</code></pre>
 <hr />
-<h3>Staff Associate</h3>
-<ul>
-<li><code>Select an activities and events coordinator from a [drop-down select box](link to glossary term).</code></li>
-</ul>
+<h2>Accounting Code</h2>
+<hr />
+<pre><code>To be entered by the financial officer.</code></pre>
+<hr />
+<h2>Coordinator</h2>
+<hr />
+<pre><code>Select an activities and events coordinator from a drop-down select box.</code></pre>
+<hr />
+<h2>Staff Associate</h2>
+<hr />
+<pre><code>Select an activities and events coordinator from a drop-down select box.</code></pre>
 </div>
 
     </div>
