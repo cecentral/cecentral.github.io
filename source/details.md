@@ -16,7 +16,8 @@ pageTitle: Details
 
 ---
 
-- The first letter `(A)` represents the `type of credit` offered by the activity.
+- `A` ( _character 1_ ) represents the `type of credit` offered by the activity.
+
 	- `M`: CME
 	- `P`: CPE
 	- `N`: CNE
@@ -28,7 +29,9 @@ pageTitle: Details
 	- `H`: Public Health
 	- `W`: Non-accredited
 
-- The second letter `(B)` represents the `activity type`.
+---
+
+- `B` ( _character 2_ ) represents the `activity type`.
 
 - **E**: `[Enduring]` 
     - Internet
@@ -50,66 +53,70 @@ pageTitle: Details
     - Test Item Writing
     - Undefined
 
-- The third letter `(C)` represents the `team type`.
+---
+
+- `C` ( _character 3_ ) represents the `team type`.
 
 	- `S`: State
-	- `N`: National 
+	- `N`: National
 
-- The first two numbers `(12)` represent the `fiscal year`.
+---
 
-- The third, fourth, and fifth numbers `(345)` are `assigned sequentially` in the order an activity is created.
 
-- he sixth, and seventh numbers `(-67)` are `assigned sequentially` in the order an activity's child elements are created.
+- `12` ( _characters 4 & 5_ ) represent the `fiscal year`.
+
+- `345` ( _characters 6,7 & 8_ ) are **assigned sequentially** in the order an activity is created.
+
+- `-67` ( _characters 9, 10 & 11_ ) are **assigned sequentially** in the order an activity's child elements are created.
 
 **Notes**:
 
->Once an activity has been created, the value of the "Lock Activity Code" check box will change from *"false"* to *"true"*,
->causing the box to become checked.  When the page refreshes, the "Activity Code Setup" form will be hidden.  To update an 
->activity code you must click on the "Activity Code Setup" link to make the form appear.  Then the "Lock Activity Code" check 
->box must be un-checked.
+    Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page 
+    refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the 
+    "Lock Activity Code" check box must be un-checked.
 
-###Title
-
----
-
-Enter a title to use for the activity.
+##Title
 
 ---
 
-###Subtitle
+    Enter a title to use for the activity.
 
 ---
 
-Enter a short descriptive sentence to enhance the title of the activity.
+##Subtitle
 
 ---
 
-###Keywords
+    Enter a short descriptive sentence to enhance the title of the activity.
 
 ---
 
-Enter terms you wish to use in the search function of your site.
+##Keywords
 
 ---
 
-###Accounting Code
+    Enter terms you wish to use in the search function of your site.
 
 ---
 
-To be entered by the [`financial officer`](/link-to-glossary-term).
+##Accounting Code
 
 ---
 
-###Coordinator
+    To be entered by the financial officer.
 
 ---
 
-Select an activities and events coordinator from a [`drop-down select box`](/link-to-glossary-term.com).
+##Coordinator
 
 ---
 
-###Staff Associate
+    Select an activities and events coordinator from a drop-down select box.
 
 ---
 
-Select an activities and events coordinator from a [`drop-down select box`](/link-to-glossary-term).
+##Staff Associate
+
+---
+
+    Select an activities and events coordinator from a drop-down select box.
