@@ -1,6 +1,7 @@
 #[cecentral.github.io](http://cecentral.github.io)
 
 ---
+
 **Repository**: `https://github.com/cecentral/cecentral.github.io.git`
 
 **Subtrees**:
@@ -8,22 +9,27 @@
   - master: webroot for cecentral.github.io
   - jigsaw-master: master branch for build process
   - development: staging and testing branch
+
 ---
 
 ##Adding New Documentation
 
 ---
+
 **Add new documentation to the `development` branch at `https://github.com/cecentral/cecentral.github.io`**
 - Create a new markdown file ( _abc_.md ).
 - Using github-flavored markdown tags, create a documentation page with the desired layout.
 - Commit your changes to the `development` branch through the web interface.
 - File a pull request to merge the `development` branch into the `jigsaw-master` branch.
+
 ---
 
 ##Editing Documentation
 
 ---
+
 - Follow the steps outlined in **Adding New Documentation**.
+
 ---
 
 ##Merging New or Edited Documentation
