@@ -1,7 +1,5 @@
 #[cecentral.github.io](http://cecentral.github.io)
 
----
-
 **Repository**: `https://github.com/cecentral/cecentral.github.io.git`
 
 **Subtrees**:
@@ -14,8 +12,6 @@
 
 ##Adding New Documentation
 
----
-
 **Add new documentation to the `development` branch at `https://github.com/cecentral/cecentral.github.io`**
 - Create a new markdown file ( _abc_.md ).
 - Using github-flavored markdown tags, create a documentation page with the desired layout.
@@ -26,15 +22,12 @@
 
 ##Editing Documentation
 
----
-
 - Follow the steps outlined in **Adding New Documentation**.
 
 ---
 
 ##Merging New or Edited Documentation
 
----
 **Setup a local repository** : 
   ```
   git clone https://github.com/cecentral/cecentral.github.io.git
@@ -76,7 +69,6 @@ _Approve and merge pull requests from the web interface at https://github.com/ce
 
 ##[Jigsaw](http://jigsaw.tighten.co/) Documentation
 
----
 - [Installation](http://jigsaw.tighten.co/docs/installation/)
 - [Building and Previewing](http://jigsaw.tighten.co/docs/building-and-previewing/)
 - [Deploying Your Site](http://jigsaw.tighten.co/docs/deploying-your-site/)
