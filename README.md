@@ -2,7 +2,7 @@
 
 **Repository**: `https://github.com/cecentral/cecentral.github.io.git`
 
-**Subtrees**:
+**Branches**:
 
   - master: webroot for cecentral.github.io
   - jigsaw-master: master branch for build process
@@ -44,11 +44,11 @@
   
   - then
   ```
-  git remote add <name> https://github.com/cecentral/cecentral.github.io.git
+  git remote add <remote> https://github.com/cecentral/cecentral.github.io.git
   git checkout -b jigsaw-master
-  git pull <name> jigsaw-master
+  git pull <remote> jigsaw-master
   git checkout -b development
-  git pull <name> development
+  git pull <remote> development
   ```
 
 **Merge the `development` branch into the `jigsaw-master` branch**.
@@ -64,6 +64,8 @@ _Approve and merge pull requests from the web interface at https://github.com/ce
   git add build_production && git commit -m "Build for deploy"
   git push -u origin jigsaw-master
   git subtree push --prefix build_production origin master
+    OR
+  git push <remote> `git subtree split --prefix <directory> <local_branch>`:<remote_branch> --force
   ```
 ---
 
