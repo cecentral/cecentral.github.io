@@ -12,7 +12,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Details".
+>A short description of "Details".
 
 ---
 
@@ -20,7 +20,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Credit".
+>A short description of "Credit".
 
 ---
 
@@ -28,7 +28,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Front Matter".
+>A short description of "Front Matter".
 
 ---
 
@@ -36,7 +36,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Assets".
+>A short description of "Assets".
 
 ---
 
@@ -44,7 +44,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Faculty".
+>A short description of "Faculty".
 
 ---
 
@@ -52,7 +52,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Registrants".
+>A short description of "Registrants".
 
 ---
 
@@ -60,7 +60,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Recipients".
+>A short description of "Recipients".
 
 ---
 
@@ -68,7 +68,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Sponsors".
+>A short description of "Sponsors".
 
 ---
 
@@ -76,7 +76,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Registration Form".
+>A short description of "Registration Form".
 
 ---
 
@@ -84,7 +84,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Media".
+>A short description of "Media".
 
 ---
 
@@ -92,7 +92,7 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "Assessments".
+>A short description of "Assessments".
 
 ---
   
@@ -100,4 +100,4 @@ pageTitle: Guidebook
 
 ---
 
-    A short description of "More".
+>A short description of "More".

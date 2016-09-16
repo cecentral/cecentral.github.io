@@ -71,15 +71,13 @@ pageTitle: Details
 
 **Notes**:
 
-    Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page 
-    refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the 
-    "Lock Activity Code" check box must be un-checked.
+>Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the "Lock Activity Code" check box must be un-checked.
 
 ##Title
 
 ---
 
-    Enter a title to use for the activity.
+>Enter a title to use for the activity.
 
 ---
 
@@ -87,7 +85,7 @@ pageTitle: Details
 
 ---
 
-    Enter a short descriptive sentence to enhance the title of the activity.
+>Enter a short descriptive sentence to enhance the title of the activity.
 
 ---
 
@@ -95,7 +93,7 @@ pageTitle: Details
 
 ---
 
-    Enter terms you wish to use in the search function of your site.
+>Enter terms you wish to use in the search function of your site.
 
 ---
 
@@ -103,7 +101,7 @@ pageTitle: Details
 
 ---
 
-    To be entered by the financial officer.
+>To be entered by the financial officer.
 
 ---
 
@@ -111,7 +109,7 @@ pageTitle: Details
 
 ---
 
-    Select an activities and events coordinator from a drop-down select box.
+>Select an activities and events coordinator from a drop-down select box.
 
 ---
 
@@ -119,4 +117,4 @@ pageTitle: Details
 
 ---
 
-    Select an activities and events coordinator from a drop-down select box.
+>Select an activities and events coordinator from a drop-down select box.
