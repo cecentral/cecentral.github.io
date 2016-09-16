@@ -71,9 +71,7 @@ pageTitle: Details
 
 **Notes**:
 
-    Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page 
-    refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the 
-    "Lock Activity Code" check box must be un-checked.
+>Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the "Lock Activity Code" check box must be un-checked.
 
 ##Title
 
