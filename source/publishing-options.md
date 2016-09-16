@@ -19,9 +19,7 @@ pageTitle: Publishing Options
 
 ---
 
-    The transistion to an archived status occurs automatically the day after an event closes for [Enduring] events, or the day after the 60 day sunset period following a [Live] 
-    event. This change does not occur automatically, it is a scheduled event on the server 
-    that occurs at midnight.
+>The transistion to an archived status occurs automatically the day after an event closes for [Enduring] events, or the day after the 60 day sunset period following a [Live] event. This change does not occur automatically, it is a scheduled event on the server that occurs at midnight.
 
 ---
 
@@ -33,17 +31,16 @@ pageTitle: Publishing Options
 
 ##Start Date
 
-    Choose a start date for the event.  This date may be current, past, or in the future.
+>Choose a start date for the event.  This date may be current, past, or in the future.
 
 ---
 
 ##End Date
 
-    Choose an ending date for the event.  This date must be current or in the future in 
-    order for the activity to display on the site.
+>Choose an ending date for the event.  This date must be current or in the future in order for the activity to display on the site.
 
 ---
 
 ##Make public on CECentral?
 
-    This box must be checked in order for the event to display on the site.
+>This box must be checked in order for the event to display on the site.

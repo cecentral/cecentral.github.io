@@ -77,7 +77,7 @@ pageTitle: Details
 
 ---
 
-    Enter a title to use for the activity.
+>Enter a title to use for the activity.
 
 ---
 
@@ -85,7 +85,7 @@ pageTitle: Details
 
 ---
 
-    Enter a short descriptive sentence to enhance the title of the activity.
+>Enter a short descriptive sentence to enhance the title of the activity.
 
 ---
 
@@ -93,7 +93,7 @@ pageTitle: Details
 
 ---
 
-    Enter terms you wish to use in the search function of your site.
+>Enter terms you wish to use in the search function of your site.
 
 ---
 
@@ -101,7 +101,7 @@ pageTitle: Details
 
 ---
 
-    To be entered by the financial officer.
+>To be entered by the financial officer.
 
 ---
 
@@ -109,7 +109,7 @@ pageTitle: Details
 
 ---
 
-    Select an activities and events coordinator from a drop-down select box.
+>Select an activities and events coordinator from a drop-down select box.
 
 ---
 
@@ -117,4 +117,4 @@ pageTitle: Details
 
 ---
 
-    Select an activities and events coordinator from a drop-down select box.
+>Select an activities and events coordinator from a drop-down select box.
