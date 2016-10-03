@@ -4,17 +4,82 @@ section: sub-page-body
 pageTitle: Details
 ---
 
-# Activities: Details
-
-![image of details](../img/activity/details.png)
-
-##Activity Code Setup
+# Activities: Front Matter
 
 ---
 
-**Format**: _**`ABC12345-67`**_
+##Manage Content
 
 ---
+
+###Add Content
+
+---
+
+###Live Activity
+
+---
+
+###Enduring Activity
+
+---
+
+###Content Type\*
+
+---
+
+- _Select One_
+
+    - `Required`
+        - `Faculty Disclosure`
+        - `Needs Statement`
+        - `Objectives`
+        - `Target Audience`
+    
+    - `Optional`
+        - `Accreditation Override`
+        - `Acknowledgment`
+        - `CHES Areas of Responsibility`
+        - `Certificate Footer Message`
+        - `Custom`
+        - `Heading`
+
+---
+
+###Live Activity
+
+---
+
+###Content Type\*
+
+---
+
+- _Select One_
+
+    - `Required`
+        - `Objectives`
+        - `Target Audience`
+    
+    - `Optional`
+        - `Accommodations`
+        - `Accreditation Override`
+        - `Acknowledgment`
+        - `Additional Info`
+        - `Agenda`
+        - `CHES Areas of Responsibility`
+        - `Cancellation*`
+        - `Certificate Footer Message`
+        - `Custom`
+        - `Faculty Disclosure`
+        - `Needs Statement`
+        - `Offline Registration Note`
+        - `Overview`
+        - `PI - Project AIM`
+        - `PI - Project Data Collection`
+        - `PI - Project Data Source`
+        - `Refund Policy`
+        - `Save the Date`
+    
 
 - `A` ( _character 1_ ) represents the `type of credit` offered by the activity.
 
