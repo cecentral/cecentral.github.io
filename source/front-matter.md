@@ -1,7 +1,7 @@
 ---
 extends: _layouts.subpage
 section: sub-page-body
-pageTitle: Details
+pageTitle: Front Matter
 ---
 
 # Activities: Front Matter
@@ -12,174 +12,122 @@ pageTitle: Details
 
 ---
 
+> Explanation
+
+---
+
 ###Add Content
 
 ---
 
-###Live Activity
+> Explanation
 
 ---
 
 ###Enduring Activity
 
+![image of details](../img/front-matter/enduring_front_matter.png)
+
 ---
 
-###Content Type\*
+> Explanation
+
+---
+
+###Content Type\* - `Explanation`
 
 ---
 
 - _Select One_
 
     - `Required`
-        - `Faculty Disclosure`
-        - `Needs Statement`
-        - `Objectives`
-        - `Target Audience`
+        - Faculty Disclosure
+        > Explanation
+        - Needs Statement
+        > Explanation
+        - Objectives
+        > Explanation
+        - Target Audience
+        > Explanation
     
     - `Optional`
-        - `Accreditation Override`
-        - `Acknowledgment`
-        - `CHES Areas of Responsibility`
-        - `Certificate Footer Message`
-        - `Custom`
-        - `Heading`
+        - Accreditation Override
+        > Explanation
+        - Acknowledgment
+        > Explanation
+        - CHES Areas of Responsibility
+        > Explanation
+        - Certificate Footer Message
+        > Explanation
+        - Custom
+        > Explanation
+        - Heading
+        > Explanation
 
 ---
 
 ###Live Activity
 
+![image of details](../img/front-matter/live_front_matter.png)
+
+
 ---
 
-###Content Type\*
+###Content Type\* - `Explanation`
 
 ---
 
 - _Select One_
 
-    - `Required`
-        - `Objectives`
-        - `Target Audience`
+    - `Required` - Explanation
+        - Objectives
+        > Explanation
+        - Target Audience
+        > Explanation
     
-    - `Optional`
-        - `Accommodations`
-        - `Accreditation Override`
-        - `Acknowledgment`
-        - `Additional Info`
-        - `Agenda`
-        - `CHES Areas of Responsibility`
-        - `Cancellation*`
-        - `Certificate Footer Message`
-        - `Custom`
-        - `Faculty Disclosure`
-        - `Needs Statement`
-        - `Offline Registration Note`
-        - `Overview`
-        - `PI - Project AIM`
-        - `PI - Project Data Collection`
-        - `PI - Project Data Source`
-        - `Refund Policy`
-        - `Save the Date`
+    - `Optional` - Explanation
+        - Accommodations
+        > Explanation
+        - Accreditation Override
+        > Explanation
+        - Acknowledgment
+        > Explanation
+        - Additional Info
+        > Explanation
+        - Agenda
+        > Explanation
+        - CHES Areas of Responsibility
+        > Explanation
+        - Cancellation*
+        > Explanation
+        - Certificate Footer Message
+        > Explanation
+        - Custom
+        > Explanation
+        - Faculty Disclosure
+        > Explanation
+        - Needs Statement
+        > Explanation
+        - Offline Registration Note
+        > Explanation
+        - Overview
+        > Explanation
+        - PI - Project AIM
+        > Explanation
+        - PI - Project Data Collection
+        > Explanation
+        - PI - Project Data Source
+        > Explanation
+        - Refund Policy
+        > Explanation
+        - Save the Date
+        > Explanation
     
-
-- `A` ( _character 1_ ) represents the `type of credit` offered by the activity.
-
-	- `M`: CME
-	- `P`: CPE
-	- `N`: CNE
-	- `D`: CDE
-	- `T`: Osteopathic
-	- `Y`: Physical Therapy
-	- `A`: IACET
-	- `X`: Multi-Disciplinary
-	- `H`: Public Health
-	- `W`: Non-accredited
-
 ---
-
-- `B` ( _character 2_ ) represents the `activity type`.
-
-- **E**: `[Enduring]` 
-    - Internet
-    - Print
-    - Journal
-    - CD/DVD
-    - Other
-    - Perform.(ance) Improvement	
-		
-- **L**: `[Live]`
-    - Course
-    - Internet
-    - Regularly Scheduled Series
-    - Commitee Learning
-    - Internet Search/Learning
-    - Learning from Teaching
-    - Manuscript Review
-    - Perform.(ance) Improvement
-    - Test Item Writing
-    - Undefined
-
----
-
-- `C` ( _character 3_ ) represents the `team type`.
-
-	- `S`: State
-	- `N`: National
-
----
-
-
-- `12` ( _characters 4 & 5_ ) represent the `fiscal year`.
-
-- `345` ( _characters 6,7 & 8_ ) are **assigned sequentially** in the order an activity is created.
-
-- `-67` ( _characters 9, 10 & 11_ ) are **assigned sequentially** in the order an activity's child elements are created.
 
 **Notes**:
 
+---
+
 >Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the "Lock Activity Code" check box must be un-checked.
 
-##Title
-
----
-
->Enter a title to use for the activity.
-
----
-
-##Subtitle
-
----
-
->Enter a short descriptive sentence to enhance the title of the activity.
-
----
-
-##Keywords
-
----
-
->Enter terms you wish to use in the search function of your site.
-
----
-
-##Accounting Code
-
----
-
->To be entered by the financial officer.
-
----
-
-##Coordinator
-
----
-
->Select an activities and events coordinator from a drop-down select box.
-
----
-
-##Staff Associate
-
----
-
->Select an activities and events coordinator from a drop-down select box.
