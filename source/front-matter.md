@@ -46,19 +46,27 @@ pageTitle: Front Matter
         - Needs Statement
         > Explanation
         - Objectives
-        > Explanation
+        >State the learning objectives for the activity.
         - Target Audience
-        > Explanation
+        >List the profession(s) and specialt_y_(ies) the activity is meant to serve.
     
     - `Optional`
         - Accreditation Override
-        > Explanation
+        >Provide the required language for accreditation of this activity. **Only
+        >for use in special situations where the automatically generated
+        >Accreditation Statement does not meet accreditation requirements.**
         - Acknowledgment
-        > Explanation
+        >Provide custom text acknowledging the participation of an Advertiser/
+        >Exhibitor, Co-Provider, Commercial Supporter, Donor, Government,
+        >Grants/Foundations, Joint Provider, Non-Commercial Supporter,
+        >Stakeholder, or Vendor.  **Only for use in special situtations where the
+        >automatically generated Acknowledgment Statement does not meet the
+        >Client's requirements.** _see Clients/Type of Client\*_
         - CHES Areas of Responsibility
-        > Explanation
+        > Statements pertaining to the [Seven Areas of Responsibility](http://www.nchec.org/responsibilities-and-competencies) for a Certified Health Education
+        >Specialist as they relate to the activity.
         - Certificate Footer Message
-        > Explanation
+        > Provide custom text for the footer of the certificate.
         - Custom
         > Explanation
         - Heading
@@ -81,27 +89,35 @@ pageTitle: Front Matter
 
     - `Required` - Explanation
         - Objectives
-        > Explanation
+        >State the learning objectives for the activity.
         - Target Audience
-        > Explanation
+        >List the profession(s) and specialt_y_(ies) the activity is meant to serve.
     
     - `Optional` - Explanation
         - Accommodations
-        > Explanation
+        >Explanation
         - Accreditation Override
-        > Explanation
+        >Provide the required language for accreditation of this activity. **Only for
+        >use in special situations where the automatically generated Accreditation
+        >Statement does not meet accreditation requirements.** 
         - Acknowledgment
-        > Explanation
+        >Provide custom text acknowledging the participation of an Advertiser/
+        >Exhibitor, Co-Provider, Commercial Supporter, Donor, Government,
+        >Grants/Foundations, Joint Provider, Non-Commercial Supporter,
+        >Stakeholder, or Vendor.  **Only for use in special situtations where the
+        >automatically generated Acknowledgment Statement does not meet the
+        >Client's requirements.** _see Clients/Type of Client\*_
         - Additional Info
         > Explanation
         - Agenda
         > Explanation
         - CHES Areas of Responsibility
-        > Explanation
+        > Statements pertaining to the [Seven Areas of Responsibility](http://www.nchec.org/responsibilities-and-competencies) for a Certified Health Education
+        >Specialist as they relate to the activity.
         - Cancellation*
         > Explanation
         - Certificate Footer Message
-        > Explanation
+        > Provide custom text for the footer of the certificate.
         - Custom
         > Explanation
         - Faculty Disclosure
