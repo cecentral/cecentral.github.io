@@ -78,7 +78,6 @@ Acknowledgment
 >**Activity Home** tab of the Enduring Activity page. 
 
 CHES Areas of Responsibility
->**Is this optional system generated content?**
 >Statements pertaining to the [Seven Areas of Responsibility](http://www.nchec.org/responsibilities-and-competencies) for a Certified Health Education
 >Specialist as they relate to the activity. CHES statements appear in the
 >**Activity Home** tab of the Enduring Activity page.
@@ -167,7 +166,6 @@ Agenda
 >agenda and appears in the **Agenda** tab of the Live Event page.
 
 CHES Areas of Responsibility
->**Is this optional system generated content?**
 >Statements pertaining to the [Seven Areas of Responsibility](http://www.nchec.org/responsibilities-and-competencies) for a Certified Health Education
 >Specialist as they relate to the activity. CHES statements appear in the
 >**Accreditation** tab of the Live Event page.
