@@ -117,4 +117,5 @@ pageTitle: Details
 
 ---
 
->Select an activities and events coordinator from a drop-down select box.
+>Select a staff member from a drop-down select box to assist the coordinator
+>and act as a contact person for the activity. 
