@@ -21,7 +21,7 @@ pageTitle: Front Matter
 
 ---
 
-![image of live page](../img/front-matter/live_page.png)
+![image of enduring page](../img/front-matter/enduring_page.png)
 
 ---
 
