@@ -22,6 +22,10 @@ pageTitle: Guidebook
 
 ---
 
+[![image of Activities Tab](../img/activity/ActivitiesTab.png)](/activities)
+
+---
+
 ##Members
 
 ---
