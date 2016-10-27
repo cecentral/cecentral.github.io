@@ -8,6 +8,30 @@ pageTitle: Guidebook
 
 ---
 
+##[Activity Quick Search](/activity-details)
+
+---
+
+[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activities)
+
+---
+
+>A short description of Activity Quick Search.
+
+---
+
+##[PJC Dashboard: Coordinator](/activity-details)
+
+---
+
+[![image of PJC Dashboard](../img/activity/PJCDashboardCoordinator.png)](/activities)
+
+---
+
+>A short description of PJC Dashboard Coordinator Drop Down Select.
+
+---
+
 ##[Details](/activity-details)
 
 ---
