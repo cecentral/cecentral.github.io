@@ -71,13 +71,3 @@ pageTitle: Guidebook
 [![image of Topics](../img/activity/topics.png)](/topics)
 
 ---
-
-
-  - [Details](/details)
-  - [Publishing options](/publishing-options)
-  - [Accreditation](/accreditation)
-  - [Location](/location)
-  - [Options](/options)
-  - [Get Credit](/get-credit)
-  - [Outcomes](/outcomes)
-  - [Topics](/topics)
