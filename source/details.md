@@ -4,15 +4,19 @@ section: sub-page-body
 pageTitle: Details
 ---
 
-# Activities: Details
+# Activities: `Details`
+
+---
 
 ![image of details](../img/activity/details.png)
+
+---
 
 ##Activity Code Setup
 
 ---
 
-**Format**: _**`ABC12345-67`**_
+###Format: `ABC12345-67`
 
 ---
 
@@ -69,9 +73,19 @@ pageTitle: Details
 
 - `-67` ( _characters 9, 10 & 11_ ) are **assigned sequentially** in the order an activity's child elements are created.
 
-**Notes**:
+---
 
->Once an activity has been created, the value of the "Lock Activity Code" check box will change from "false" to "true", causing the box to become checked. When the page refreshes, the "Activity Code Setup" form will be hidden. To update an activity code you must click on the "Activity Code Setup" link to make the form appear. Then the "Lock Activity Code" check box must be un-checked.
+###Notes:
+
+---
+
+>Once an activity has been created, the value of the "Lock Activity Code" check 
+>box will change from "false" to "true", causing the box to become checked. When 
+>the page refreshes, the "Activity Code Setup" form will be hidden. To update an 
+>activity code you must click on the "Activity Code Setup" link to make the form 
+>appear. Then the "Lock Activity Code" check box must be un-checked.
+
+---
 
 ##Title
 
@@ -118,4 +132,6 @@ pageTitle: Details
 ---
 
 >Select a staff member from a drop-down select box to assist the coordinator
->and act as a contact person for the activity. 
+>and act as a contact person for the activity.
+
+---

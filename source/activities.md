@@ -8,6 +8,61 @@ pageTitle: Guidebook
 
 ---
 
+##[`Activity Quick Search`](/activity-details)
+
+---
+
+[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-details)
+
+---
+>**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
+>Click the checkbox to enable searching by date range.
+
+---
+
+##[`PJC Dashboard`](/activity-details)
+
+---
+
+###Coordinator
+
+---
+
+[![image of PJC Dashboard Coordinator Selection](../img/activity/PJCDashboardCoordinator.png)](/activity-details)
+
+---
+
+>Make a selection here to display activities by a specific Coordinator. The
+>default selection is *All*.
+
+---
+
+###Staff Associate
+
+---
+
+[![image of PJC Dashboard Staff Associate Selection](../img/activity/PJCDashStaffAssoc.png)](/activity-details)
+
+---
+
+>Make a selection here to display activities by a specific Staff Associate. The
+>default selection is *All*.
+
+---
+
+###Activity Type
+
+---
+
+[![image of PJC Dashboard Activity Type Selection](../img/activity/PJCDashActivityType.png)](/activity-details)
+
+---
+
+>Make a selection here to display activities of a specific type. The
+>default selection is *All*.
+
+---
+
 ##[Details](/activity-details)
 
 ---

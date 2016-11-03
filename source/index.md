@@ -14,11 +14,15 @@ pageTitle: Guidebook
 
 ---
 
-#Summary
+#Summary of Tabs
 
 ---
 
 ##[Activities](/activities)
+
+---
+
+[![image of Activities Tab](../img/activity/ActivitiesTab.png)](/activities)
 
 ---
 
