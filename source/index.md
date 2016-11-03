@@ -14,7 +14,7 @@ pageTitle: Guidebook
 
 ---
 
-#Summary
+#Summary of Tabs
 
 ---
 
