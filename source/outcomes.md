@@ -6,6 +6,12 @@ pageTitle: Outcomes
 
 #Activities: Outcomes
 
+---
+
 ![image of outcomes](../img/activity/outcomes.png)
 
+---
+
 `stub`
+
+---

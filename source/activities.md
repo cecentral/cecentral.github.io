@@ -1,18 +1,18 @@
 ---
 extends: _layouts.subpage
 section: sub-page-body
-pageTitle: Guidebook
+pageTitle: Activities
 ---
 
 #Activities
 
 ---
 
-##[`Activity Quick Search`](/activity-details)
+##[`Activity Quick Search`](/activity-dialog)
 
 ---
 
-[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-details)
+[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
 
 ---
 >**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
@@ -20,7 +20,11 @@ pageTitle: Guidebook
 
 ---
 
-##[`PJC Dashboard`](/activity-details)
+##Manage Activities
+
+---
+
+##[`PJC Dashboard`](/activity-dialog)
 
 ---
 
@@ -28,7 +32,7 @@ pageTitle: Guidebook
 
 ---
 
-[![image of PJC Dashboard Coordinator Selection](../img/activity/PJCDashboardCoordinator.png)](/activity-details)
+[![image of PJC Dashboard Coordinator Selection](../img/activity/PJCDashboardCoordinator.png)](/activity-dialog)
 
 ---
 
@@ -41,7 +45,7 @@ pageTitle: Guidebook
 
 ---
 
-[![image of PJC Dashboard Staff Associate Selection](../img/activity/PJCDashStaffAssoc.png)](/activity-details)
+[![image of PJC Dashboard Staff Associate Selection](../img/activity/PJCDashStaffAssoc.png)](/activity-dialog)
 
 ---
 
@@ -54,7 +58,7 @@ pageTitle: Guidebook
 
 ---
 
-[![image of PJC Dashboard Activity Type Selection](../img/activity/PJCDashActivityType.png)](/activity-details)
+[![image of PJC Dashboard Activity Type Selection](../img/activity/PJCDashActivityType.png)](/activity-dialog)
 
 ---
 
@@ -63,96 +67,35 @@ pageTitle: Guidebook
 
 ---
 
-##[Details](/activity-details)
+##[`Find Activity`](/activity-dialog)
 
 ---
 
->A short description of "Details".
+[![image of Find Activity](../img/activity/FindActivity.png)](/activity-dialog)
 
 ---
 
-##Credit
+>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+>aaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ---
 
->A short description of "Credit".
+##[`Add New Activity`](/activity-dialog)
 
 ---
 
-##[Front Matter](/front-matter)
+[![image of Add New Activity](../img/activity/AddNewActivity.png)](/activity-dialog)
 
 ---
 
->A short description of "Front Matter".
+>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+>aaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ---
 
-##Assets
+##My Upcoming Activities
 
 ---
 
->A short description of "Assets".
+##My Clients
 
----
-
-##Faculty
-
----
-
->A short description of "Faculty".
-
----
-
-##Registrants
-
----
-
->A short description of "Registrants".
-
----
-
-##Credit Recipients
-
----
-
->A short description of "Recipients".
-
----
-
-##Sponsors
-
----
-
->A short description of "Sponsors".
-
----
-
-##Registration Form
-
----
-
->A short description of "Registration Form".
-
----
-
-##Media
-
----
-
->A short description of "Media".
-
----
-
-##Assessments
-
----
-
->A short description of "Assessments".
-
----
-  
-##More
-
----
-
->A short description of "More".

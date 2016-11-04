@@ -1,10 +1,10 @@
 ---
 extends: _layouts.subpage
 section: sub-page-body
-pageTitle: Guidebook
+pageTitle: Details
 ---
 
-##Activity Dialog
+##Activity Details
 
 ---
 

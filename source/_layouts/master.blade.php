@@ -56,14 +56,14 @@
 
             <ul class="nav navbar-nav navbar-right">
                 {{--<li class="disabled"><a href="/readme">Login</a></li>--}}
-                <li>
-                    <form class="navbar-form navbar-right">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search" disabled>
-                        </div>
-                        <button type="submit" class="btn btn-default" disabled>Submit</button>
-                    </form>
-                </li>
+                {{--<li>--}}
+                    {{--<form class="navbar-form navbar-right">--}}
+                        {{--<div class="form-group">--}}
+                            {{--<input type="text" class="form-control" placeholder="Search" disabled>--}}
+                        {{--</div>--}}
+                        {{--<button type="submit" class="btn btn-default" disabled>Submit</button>--}}
+                    {{--</form>--}}
+                {{--</li>--}}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                     <ul class="dropdown-menu">
