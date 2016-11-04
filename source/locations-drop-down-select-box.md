@@ -12,6 +12,6 @@ pageTitle: Location
 
 ---
 
-```stub```
+`stub`
 
 ---

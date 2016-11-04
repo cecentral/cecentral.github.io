@@ -13,3 +13,5 @@ pageTitle: Get Credit
 ---
 
 `stub`
+
+---

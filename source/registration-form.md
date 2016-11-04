@@ -13,3 +13,5 @@ pageTitle: Registration Form
 ---
 
 `stub`
+
+---

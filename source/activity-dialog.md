@@ -8,15 +8,15 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Details`](/details)
+[`Details`](/activity-details)
 
 ---
 
-[![image of Activity Details](../img/activity/details.png)](/details)
+[![image of Activity Details](../img/activity/details.png)](/activity-details)
 
 ---
 
->A short description of "Details".
+>A short description of Details.
 
 ---
 

@@ -6,7 +6,11 @@ pageTitle: Accreditation
 
 #Activities: Accreditation
 
+---
+
 ![image of accreditation](../img/activity/accreditation.png)
+
+---
 
 ##Designed to Change Competence?:
 >level 1 in ascending precedence.
