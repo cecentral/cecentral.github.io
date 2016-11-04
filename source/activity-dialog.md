@@ -1,7 +1,7 @@
 ---
 extends: _layouts.subpage
 section: sub-page-body
-pageTitle: Guidebook
+pageTitle: Activity Dialog
 ---
 
 ##Activity Dialog
@@ -16,11 +16,43 @@ pageTitle: Guidebook
 
 ---
 
-[`Credit`](/credit)
+>A short description of "Details".
 
 ---
 
+[`Credit`](/credit)
+
+---
+ 
 [![image of Credit](../img/activity/publishing_options.png)](/credit)
+
+---
+
+>A short description of Credit.
+
+---
+
+[`Activity Sessions`](/activity-sessions)
+
+---
+ 
+[![image of Activity Sessions](../img/activity/publishing_options.png)](/activity-sessions)
+
+---
+
+>A short description of Activity Sessions.
+
+---
+
+[`Agenda`](/agenda)
+
+---
+
+[![image of Agenda](../img/activity/details.png)](/agenda)
+
+---
+
+>A short description of Agenda.
 
 ---
 
@@ -32,11 +64,19 @@ pageTitle: Guidebook
 
 ---
 
+>A short description of Front Matter.
+
+---
+
 [`Assets`](/assets)
 
 ---
 
 [![image of Assets](../img/activity/location.png)](/assets)
+
+---
+
+>A short description of Assets.
 
 ---
 
@@ -48,120 +88,89 @@ pageTitle: Guidebook
 
 ---
 
+>A short description of Faculty.
+
+---
+
 [`Registrants`](/registrants)
 
 ---
 
-[![image of Registrants](../img/activity/get_credit.png)](/registrants)
+[![image of Registrants](../img/activity/options.png)](/registrants)
 
 ---
 
-[`Outcomes`](/outcomes)
+>A short description of Registrants.
 
 ---
 
-[![image of Outcomes](../img/activity/outcomes.png)](/outcomes)
+[`Credit Recipients`](/credit-recipients)
 
 ---
 
-[`Topics`](/topics)
+[![image of Credit Recipients](../img/activity/get_credit.png)](/credit-recipients)
 
 ---
 
-[![image of Topics](../img/activity/topics.png)](/topics)
+>A short description of Credit Recipients.
 
 ---
 
-##[Details](/activity-details)
+[`Sponsors`](/sponsors)
 
 ---
 
->A short description of "Details".
+[![image of Sponsors](../img/activity/get_credit.png)](/sponsors)
 
 ---
 
-##Credit
+>A short description of Sponsors.
 
 ---
 
->A short description of "Credit".
+[`Registration Form`](/registration-form)
 
 ---
 
-##[Front Matter](/front-matter)
+[![image of Registration Form](../img/activity/outcomes.png)](/registration-form)
 
 ---
 
->A short description of "Front Matter".
+>A short description of Registration Form.
 
 ---
 
-##Assets
+[`Media`](/media)
 
 ---
 
->A short description of "Assets".
+[![image of Media](../img/activity/topics.png)](/media)
 
 ---
 
-##Faculty
+>A short description of Media.
 
 ---
 
->A short description of "Faculty".
+[`Assessments`](/assessments)
 
 ---
 
-##Registrants
+[![image of Assessments](../img/activity/topics.png)](/assessmenets)
 
 ---
 
->A short description of "Registrants".
+>A short description of Assessments.
+---
+
+[`More...`](/more)
 
 ---
 
-##Credit Recipients
+[![image of More...](../img/activity/topics.png)](/more)
 
 ---
 
->A short description of "Recipients".
+>A short description of More...
 
 ---
-
-##Sponsors
-
----
-
->A short description of "Sponsors".
-
----
-
-##Registration Form
-
----
-
->A short description of "Registration Form".
-
----
-
-##Media
-
----
-
->A short description of "Media".
-
----
-
-##Assessments
-
----
-
->A short description of "Assessments".
-
----
-  
-##More
-
----
-
->A short description of "More".
