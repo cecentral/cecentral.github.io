@@ -4,7 +4,7 @@ section: sub-page-body
 pageTitle: Guidebook
 ---
 
-##Activity Dialog
+##Activity Details
 
 ---
 
