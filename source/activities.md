@@ -75,8 +75,7 @@ pageTitle: Activities
 
 ---
 
->aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
->aaaaaaaaaaaaaaaaaaaaaaaaaa
+>A short description of Find Activity.
 
 ---
 
@@ -88,8 +87,7 @@ pageTitle: Activities
 
 ---
 
->aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
->aaaaaaaaaaaaaaaaaaaaaaaaaa
+>A short description of Add New Activity.
 
 ---
 
@@ -99,3 +97,4 @@ pageTitle: Activities
 
 ##My Clients
 
+---
