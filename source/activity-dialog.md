@@ -156,7 +156,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Assessments](../img/activity/topics.png)](/assessmenets)
+[![image of Assessments](../img/activity/topics.png)](/assessments)
 
 ---
 
