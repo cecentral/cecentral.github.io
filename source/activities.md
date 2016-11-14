@@ -95,6 +95,22 @@ pageTitle: Activities
 
 ---
 
+[![image of My Upcoming Activities](../img/activity/MyUpcomingActivities.png)](/activity-dialog)
+
+---
+
+>A short description of My Upcoming Activities.
+
+---
+
 ##My Clients
+
+---
+
+[![image of My Clients](../img/activity/MyClients.png)](/activity-dialog)
+
+---
+
+>A short description of My Clients.
 
 ---
