@@ -24,7 +24,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Credit](../img/activity/publishing_options.png)](/credit)
+[![image of Credit](../img/credit/manage_credits.png)](/credit)
 
 ---
 
