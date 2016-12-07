@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/supplemental.css">
+    {{--<link rel="stylesheet" href="/css/supplemental.css">--}}
 
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -23,6 +23,9 @@
 
     <!--Magnify-->
     <script src="/js/bootstrap-magnify.js"></script>
+
+    <!--Clipboard-->
+    <script src="/js/clipboard.js"></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -103,6 +106,31 @@
     $(document).ready(function () {
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
+        new Clipboard('.btn');
+
+        $.each($("h1, a").has("code"), function(index, value) {
+
+            var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"];
+
+            var codeId = alphabet[index];
+
+            $(this).find("code").attr('id', codeId);
+
+
+            $(this).wrap(
+                '<div class="input-group"></div>'
+            );
+            $(this).after(
+                '<span class="input-group-button"><button class="btn" type="button">' +
+                    '<img class="clippy" src="/img/clippy.svg" width="13" alt="Copy to clipboard">' +
+                '</button></span>'
+            );
+
+                $(this).next("span").find("button").attr("data-clipboard-target", "#" + codeId);
+
+            console.log('code' + index + ':' +  $(this).text());
+        });
+
     });
 </script>
 
