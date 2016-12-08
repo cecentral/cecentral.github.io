@@ -93,6 +93,60 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+        {{--<div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">--}}
+            <form class="sidebar-form">
+                <input class="form-control" type="text" placeholder="Search...">
+                <button type="submit" class="btn-link">
+                    <span class="icon icon-magnifying-glass"></span>
+                </button>
+            </form>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="nav-header">Dashboards</li>
+                <li class="active">
+                    <a href="index.html">Overview</a>
+                </li>
+                <li >
+                    <a href="order-history/index.html">Order history</a>
+                </li>
+                <li >
+                    <a href="fluid/index.html">Fluid layout</a>
+                </li>
+                <li >
+                    <a href="icon-nav/index.html">Icon nav</a>
+                </li>
+
+                <li class="nav-header">More</li>
+                <li >
+                    <a href="docs/index.html">
+                        Toolkit docs
+                    </a>
+                </li>
+                <li>
+                    <a href="http://getbootstrap.com" target="blank">
+                        Bootstrap docs
+                    </a>
+                </li>
+                <li >
+                    <a href="light/index.html">Light UI</a>
+                </li>
+                <li>
+                    <a href="#docsModal" data-toggle="modal">
+                        Example modal
+                    </a>
+                </li>
+            </ul>
+            <hr class="visible-xs m-t">
+        {{--</div>--}}
+    </nav>
+</div>
 
 
 <div class = "container">
