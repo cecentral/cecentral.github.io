@@ -13,13 +13,21 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/supplemental.css">
+    
 
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <!--Bootstrap-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+
+    <!--Magnify-->
+    <script src="/js/bootstrap-magnify.js"></script>
+
+    <!--Clipboard-->
+    <script src="/js/clipboard.js"></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -96,9 +104,57 @@
 
         <div class="col-lg"><h1>Activites: <code>More...</code></h1>
 <hr />
-<p><img src="../img/activity/get_credit.png" alt="Image of More..." /></p>
+<p><img src="../img/activity/more.png" alt="Image of More..." /></p>
 <hr />
 <p><code>stub</code></p>
+<hr />
+<h2><a href="/activity-finances">Activity Finances</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Activity Finances.</p>
+</blockquote>
+<hr />
+<h2><a href="/budget">Budget</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/configuration">Configuration</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/coupon-codes">Coupon Codes</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/e-learning-community">eLearning Community</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/notes">Notes</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/notifications">Notifications</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
+<hr />
+<h2><a href="/outcomes">Outcomes</a></h2>
+<hr />
+<blockquote>
+<p>A short description of Budget.</p>
+</blockquote>
 <hr />
 </div>
 
@@ -111,6 +167,8 @@
 <script>
     $(document).ready(function () {
         $("img").addClass("img-responsive");
+        $("img").attr('data-toggle', 'magnify');
+        //clip-link.js//
     });
 </script>
 
