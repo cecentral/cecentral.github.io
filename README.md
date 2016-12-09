@@ -59,6 +59,7 @@ _Approve and merge pull requests from the web interface at https://github.com/ce
 - Write `merge comments` when appropriate.
 
   ```
+  git checkout jigsaw-master
   git pull origin jigsaw-master
   gulp && jigsaw build production
   git add build_production && git commit -m "Build for deploy"
