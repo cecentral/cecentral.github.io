@@ -4,11 +4,11 @@ section: sub-page-body
 pageTitle: Activity Dialog
 ---
 
-##Activity Dialog
+#`Activity Dialog`
 
 ---
 
-[`Details`](/activity-details)
+##[Details](/activity-details)
 
 ---
 
@@ -20,7 +20,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Credit`](/credit)
+##[Credit](/credit)
 
 ---
  
@@ -32,7 +32,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Activity Sessions`](/activity-sessions)
+##[Activity Sessions](/activity-sessions)
 
 ---
  
@@ -44,7 +44,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Agenda`](/agenda)
+##[Agenda](/agenda)
 
 ---
 
@@ -56,7 +56,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Front Matter`](/front-matter)
+##[Front Matter](/front-matter)
 
 ---
 
@@ -68,7 +68,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Assets`](/assets)
+##[Assets](/assets)
 
 ---
 
@@ -80,7 +80,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Faculty`](/faculty)
+##[Faculty](/faculty)
 
 ---
 
@@ -92,7 +92,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Registrants`](/registrants)
+##[Registrants](/registrants)
 
 ---
 
@@ -104,7 +104,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Credit Recipients`](/credit-recipients)
+##[Credit Recipients](/credit-recipients)
 
 ---
 
@@ -116,7 +116,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Sponsors`](/sponsors)
+##[Sponsors](/sponsors)
 
 ---
 
@@ -128,7 +128,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Registration Form`](/registration-form)
+##[Registration Form](/registration-form)
 
 ---
 
@@ -140,7 +140,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Media`](/media)
+##[Media](/media)
 
 ---
 
@@ -152,7 +152,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`Assessments`](/assessments)
+##[Assessments](/assessments)
 
 ---
 
@@ -164,7 +164,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[`More...`](/more)
+##[More...](/more)
 
 ---
 
