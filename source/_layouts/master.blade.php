@@ -101,38 +101,9 @@
             </a>
         </div>
 
-        {{--<div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">--}}
-            {{--<form class="sidebar-form">--}}
-                {{--<input class="form-control" type="text" placeholder="Search...">--}}
-                {{--<button type="submit" class="btn-link">--}}
-                    {{--<span class="icon icon-magnifying-glass"></span>--}}
-                {{--</button>--}}
-            {{--</form>--}}
             <ul id="sidebar" class="nav nav-pills nav-stacked">
                 <li class="nav-header">Dashboards</li>
-                {{--<li class="active">--}}
-                <li>
-                <a href="#">{{ $pageHeading1 }}</a>
-                </li>
-                <li >
-                    <a href="#">{{ $pageHeading2 }}</a>
-                </li>
-                <li >
-                    <a href="#">{{ $pageHeading3 }}</a>
-                </li>
-                <li >
-                    <a href="#">{{ $pageHeading4 }}</a>
-                </li>
-                <li >
-                    <a href="#">{{ $pageHeading5 }}</a>
-                </li>
-                <li >
-                    <a href="#">{{ $pageHeading6 }}</a>
-                </li>
-                <li >
-                    <a href="#{{ $pageHeading7 }}">{{ $pageHeading7 }}</a>
-                </li>
-                <li class="#">More</li>
+
             </ul>
             <hr class="visible-xs m-t">
         {{--</div>--}}
@@ -166,7 +137,27 @@
             $array.push($text);
         });
         console.log($array);
+        console.log($array[3]);
 
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
 
     });
 </script>
