@@ -65,7 +65,13 @@ _Approve and merge pull requests from the web interface at https://github.com/ce
   git add build_production && git commit -m "Build for deploy"
   git push -u origin jigsaw-master
   git subtree push --prefix build_production origin master
-    OR
+  
+    OR USE THE FOLLOWING IF REJECTED BECAUSE YOU FETCHED OR PULLED MASTER
+  
+  git push origin `git subtree split --prefix build_production`:master --force
+  
+    WHICH FOLLOWS THE FOLLOWING GENERAL SYNTAX
+  
   git push <remote> `git subtree split --prefix <directory> <local_branch>`:<remote_branch> --force
   ```
 ---
