@@ -102,46 +102,37 @@
         </div>
 
         {{--<div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">--}}
-            <form class="sidebar-form">
-                <input class="form-control" type="text" placeholder="Search...">
-                <button type="submit" class="btn-link">
-                    <span class="icon icon-magnifying-glass"></span>
-                </button>
-            </form>
-            <ul class="nav nav-pills nav-stacked">
+            {{--<form class="sidebar-form">--}}
+                {{--<input class="form-control" type="text" placeholder="Search...">--}}
+                {{--<button type="submit" class="btn-link">--}}
+                    {{--<span class="icon icon-magnifying-glass"></span>--}}
+                {{--</button>--}}
+            {{--</form>--}}
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
                 <li class="nav-header">Dashboards</li>
-                <li class="active">
-                    <a href="index.html">Overview</a>
-                </li>
-                <li >
-                    <a href="order-history/index.html">Order history</a>
-                </li>
-                <li >
-                    <a href="fluid/index.html">Fluid layout</a>
-                </li>
-                <li >
-                    <a href="icon-nav/index.html">Icon nav</a>
-                </li>
-
-                <li class="nav-header">More</li>
-                <li >
-                    <a href="docs/index.html">
-                        Toolkit docs
-                    </a>
-                </li>
+                {{--<li class="active">--}}
                 <li>
-                    <a href="http://getbootstrap.com" target="blank">
-                        Bootstrap docs
-                    </a>
+                <a href="#">{{ $pageHeading1 }}</a>
                 </li>
                 <li >
-                    <a href="light/index.html">Light UI</a>
+                    <a href="#">{{ $pageHeading2 }}</a>
                 </li>
-                <li>
-                    <a href="#docsModal" data-toggle="modal">
-                        Example modal
-                    </a>
+                <li >
+                    <a href="#">{{ $pageHeading3 }}</a>
                 </li>
+                <li >
+                    <a href="#">{{ $pageHeading4 }}</a>
+                </li>
+                <li >
+                    <a href="#">{{ $pageHeading5 }}</a>
+                </li>
+                <li >
+                    <a href="#">{{ $pageHeading6 }}</a>
+                </li>
+                <li >
+                    <a href="#{{ $pageHeading7 }}">{{ $pageHeading7 }}</a>
+                </li>
+                <li class="#">More</li>
             </ul>
             <hr class="visible-xs m-t">
         {{--</div>--}}
@@ -163,6 +154,20 @@
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+
+
     });
 </script>
 
