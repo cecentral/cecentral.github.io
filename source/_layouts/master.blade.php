@@ -102,7 +102,7 @@
         </div>
 
             <ul id="sidebar" class="nav nav-pills nav-stacked">
-                <li class="nav-header">Dashboards</li>
+                <li class="nav-header">{{ $pageTitle }}</li>
 
             </ul>
             <hr class="visible-xs m-t">

@@ -4,11 +4,11 @@ section: sub-page-body
 pageTitle: Activities
 ---
 
-#Activities
+#`Activities`
 
 ---
 
-##[`Activity Quick Search`](/activity-dialog)
+##[Activity Quick Search](/activity-dialog)
 
 ---
 
@@ -24,11 +24,11 @@ pageTitle: Activities
 
 ---
 
-##[`PJC Dashboard`](/activity-dialog)
+###[PJC Dashboard](/activity-dialog)
 
 ---
 
-###Coordinator
+Coordinator
 
 ---
 
@@ -41,7 +41,7 @@ pageTitle: Activities
 
 ---
 
-###Staff Associate
+Staff Associate
 
 ---
 
@@ -54,7 +54,7 @@ pageTitle: Activities
 
 ---
 
-###Activity Type
+Activity Type
 
 ---
 
@@ -67,7 +67,7 @@ pageTitle: Activities
 
 ---
 
-##[`Find Activity`](/activity-dialog)
+###[Find Activity](/activity-dialog)
 
 ---
 
@@ -79,7 +79,7 @@ pageTitle: Activities
 
 ---
 
-##[`Add New Activity`](/activity-dialog)
+###[Add New Activity](/activity-dialog)
 
 ---
 

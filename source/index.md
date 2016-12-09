@@ -2,7 +2,6 @@
 extends: _layouts.subpage
 section: sub-page-body
 pageTitle: Guidebook
-
 ---
 
 # Project Central User Manual

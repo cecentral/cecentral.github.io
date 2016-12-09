@@ -4,11 +4,11 @@ section: sub-page-body
 pageTitle: Details
 ---
 
-##Activity Details
+#`Activity Details`
 
 ---
 
-[`Details`](/details)
+##[Details](/details)
 
 ---
 
@@ -16,7 +16,7 @@ pageTitle: Details
 
 ---
 
-[`Publishing options`](/publishing-options)
+##[Publishing options](/publishing-options)
 
 ---
 
@@ -24,7 +24,7 @@ pageTitle: Details
 
 ---
 
-[`Accreditation`](/accreditation)
+##[Accreditation](/accreditation)
 
 ---
 
@@ -32,7 +32,7 @@ pageTitle: Details
 
 ---
 
-[`Location`](/location)
+##[Location](/location)
 
 ---
 
@@ -40,7 +40,7 @@ pageTitle: Details
 
 ---
 
-[`Options`](/options)
+##[Options](/options)
 
 ---
 
@@ -48,7 +48,7 @@ pageTitle: Details
 
 ---
 
-[`Get Credit`](/get-credit)
+##[Get Credit](/get-credit)
 
 ---
 
@@ -56,7 +56,7 @@ pageTitle: Details
 
 ---
 
-[`Outcomes`](/outcomes)
+##[Outcomes](/outcomes)
 
 ---
 
@@ -64,7 +64,7 @@ pageTitle: Details
 
 ---
 
-[`Topics`](/topics)
+##[Topics](/topics)
 
 ---
 

@@ -4,7 +4,7 @@ section: sub-page-body
 pageTitle: Details
 ---
 
-# Activities: `Details`
+#`Activities: Details`
 
 ---
 
@@ -12,66 +12,68 @@ pageTitle: Details
 
 ---
 
-##Activity Code Setup
+#Activity Code Setup
 
 ---
 
-###Format: `ABC12345-67`
+##Format
+
+`ABC12345-67`
 
 ---
 
-- `A` ( _character 1_ ) represents the `type of credit` offered by the activity.
+###`A` ( _character 1_ ) represents the type of credit offered by the activity.
 
-	- `M`: CME
-	- `P`: CPE
-	- `N`: CNE
-	- `D`: CDE
-	- `T`: Osteopathic
-	- `Y`: Physical Therapy
-	- `A`: IACET
-	- `X`: Multi-Disciplinary
-	- `H`: Public Health
-	- `W`: Non-accredited
+- `M`  CME
+- `P`  CPE
+- `N`  CNE
+- `D`  CDE
+- `T`  Osteopathic
+- `Y`  Physical Therapy
+- `A`  IACET
+- `X`  Multi-Disciplinary
+- `H`  Public Health
+- `W`  Non-accredited
 
 ---
 
-- `B` ( _character 2_ ) represents the `activity type`.
+###`B` ( _character 2_ ) represents the activity type.
 
-- **E**: `[Enduring]` 
-    - Internet
-    - Print
-    - Journal
-    - CD/DVD
-    - Other
-    - Perform.(ance) Improvement	
+`E` [ _Enduring_ ] 
+- Internet
+- Print
+- Journal
+- CD/DVD
+- Other
+- Perform.(ance) Improvement	
 		
-- **L**: `[Live]`
-    - Course
-    - Internet
-    - Regularly Scheduled Series
-    - Commitee Learning
-    - Internet Search/Learning
-    - Learning from Teaching
-    - Manuscript Review
-    - Perform.(ance) Improvement
-    - Test Item Writing
-    - Undefined
+`L` [ _Live_ ]
+- Course
+- Internet
+- Regularly Scheduled Series
+- Commitee Learning
+- Internet Search/Learning
+- Learning from Teaching
+- Manuscript Review
+- Perform.(ance) Improvement
+- Test Item Writing
+- Undefined
 
 ---
 
-- `C` ( _character 3_ ) represents the `team type`.
+###`C` ( _character 3_ ) represents the team type.
 
-	- `S`: State
-	- `N`: National
+- `S`: State
+- `N`: National
 
 ---
 
 
-- `12` ( _characters 4 & 5_ ) represent the `fiscal year`.
+###`12` ( _characters 4 & 5_ ) represent the fiscal year.
 
-- `345` ( _characters 6,7 & 8_ ) are **assigned sequentially** in the order an activity is created.
+###`345` ( _characters 6,7 & 8_ ) are assigned sequentially in the order an activity is created.
 
-- `-67` ( _characters 9, 10 & 11_ ) are **assigned sequentially** in the order an activity's child elements are created.
+###`-67` ( _characters 9, 10 & 11_ ) are assigned sequentially in the order an activity's child elements are created.
 
 ---
 
