@@ -93,6 +93,22 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
+                <li class="nav-header">Activities</li>
+
+            </ul>
+            <hr class="visible-xs m-t">
+        
+    </nav>
+</div>
 
 
 <div class = "container">
@@ -102,9 +118,9 @@
         <div class="container">
     <div class="col-md-8 col-md-offset-2">
 
-        <div class="col-lg"><h1>Activities</h1>
+        <div class="col-lg"><h1><code>Activities</code></h1>
 <hr />
-<h2><a href="/activity-dialog"><code>Activity Quick Search</code></a></h2>
+<h2><a href="/activity-dialog">Activity Quick Search</a></h2>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/FindActivity.png" alt="image of Activity Quick Search" /></a></p>
 <hr />
@@ -115,9 +131,9 @@ Click the checkbox to enable searching by date range.</p>
 <hr />
 <h2>Manage Activities</h2>
 <hr />
-<h2><a href="/activity-dialog"><code>PJC Dashboard</code></a></h2>
+<h3><a href="/activity-dialog">PJC Dashboard</a></h3>
 <hr />
-<h3>Coordinator</h3>
+<p>Coordinator</p>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/PJCDashboardCoordinator.png" alt="image of PJC Dashboard Coordinator Selection" /></a></p>
 <hr />
@@ -126,7 +142,7 @@ Click the checkbox to enable searching by date range.</p>
 default selection is <em>All</em>.</p>
 </blockquote>
 <hr />
-<h3>Staff Associate</h3>
+<p>Staff Associate</p>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/PJCDashStaffAssoc.png" alt="image of PJC Dashboard Staff Associate Selection" /></a></p>
 <hr />
@@ -135,7 +151,7 @@ default selection is <em>All</em>.</p>
 default selection is <em>All</em>.</p>
 </blockquote>
 <hr />
-<h3>Activity Type</h3>
+<p>Activity Type</p>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/PJCDashActivityType.png" alt="image of PJC Dashboard Activity Type Selection" /></a></p>
 <hr />
@@ -144,7 +160,7 @@ default selection is <em>All</em>.</p>
 default selection is <em>All</em>.</p>
 </blockquote>
 <hr />
-<h2><a href="/activity-dialog"><code>Find Activity</code></a></h2>
+<h3><a href="/activity-dialog">Find Activity</a></h3>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/FindActivity.png" alt="image of Find Activity" /></a></p>
 <hr />
@@ -152,7 +168,7 @@ default selection is <em>All</em>.</p>
 <p>A short description of Find Activity.</p>
 </blockquote>
 <hr />
-<h2><a href="/activity-dialog"><code>Add New Activity</code></a></h2>
+<h3><a href="/activity-dialog">Add New Activity</a></h3>
 <hr />
 <p><a href="/activity-dialog"><img src="../img/activity/AddNewActivity.png" alt="image of Add New Activity" /></a></p>
 <hr />
@@ -189,6 +205,40 @@ default selection is <em>All</em>.</p>
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
+
     });
 </script>
 

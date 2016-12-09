@@ -1455,11 +1455,11 @@ code {
   padding-bottom: 2px;
   padding-left: 5px;
   font-size: 90%;
-  color: #6cab36;
+  color: #fff;
   background-color: #094370;
   border-style: solid !important;
   border-width: 1px !important;
-  border-radius: 3px !important; }
+  border-radius: 6px !important; }
 
 kbd {
   padding: 2px 4px;
@@ -5744,8 +5744,8 @@ html, body {
   background-color: #fff;
   color: #495155;
   /*color: #636b6f;*/
-  font-family: 'Raleway';
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
   height: 200vh;
   font-size: 110%;
   line-height: 125%;
@@ -5780,7 +5780,6 @@ html, body {
   color: #636b6f;
   padding: 0 25px;
   font-size: 12px;
-  font-weight: 400;
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase; }
@@ -5789,12 +5788,19 @@ html, body {
   margin-bottom: 30px; }
 
 h1, h2, h3 {
-  color: #2b3337; }
+  color: #2b3337;
+  font-family: "Raleway", sans-serif !important; }
 
 h1 > a, h2 > a, h3 > a {
   color: #2b3337; }
 
-h2 > a {
+h1 {
+  font-weight: 500 !important; }
+
+h2 {
+  font-weight: 400 !important; }
+
+h3 {
   font-weight: 300 !important; }
 
 blockquote {
@@ -5816,7 +5822,7 @@ blockquote {
 
 .alt-btn {
   color: #094370;
-  background-color: #6cab36;
+  background-color: #fff;
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;

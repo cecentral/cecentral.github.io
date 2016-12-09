@@ -93,6 +93,22 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
+                <li class="nav-header">Budget</li>
+
+            </ul>
+            <hr class="visible-xs m-t">
+        
+    </nav>
+</div>
 
 
 <div class = "container">
@@ -121,6 +137,40 @@
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
+
     });
 </script>
 

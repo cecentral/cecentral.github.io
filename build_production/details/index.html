@@ -93,6 +93,22 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
+                <li class="nav-header">Details</li>
+
+            </ul>
+            <hr class="visible-xs m-t">
+        
+    </nav>
+</div>
 
 
 <div class = "container">
@@ -102,38 +118,31 @@
         <div class="container">
     <div class="col-md-8 col-md-offset-2">
 
-        <div class="col-lg"><h1>Activities: <code>Details</code></h1>
+        <div class="col-lg"><h1><code>Activities: Details</code></h1>
 <hr />
 <p><img src="../img/activity/details.png" alt="image of details" /></p>
 <hr />
-<h2>Activity Code Setup</h2>
+<h1>Activity Code Setup</h1>
 <hr />
-<h3>Format: <code>ABC12345-67</code></h3>
+<h2>Format</h2>
+<p><code>ABC12345-67</code></p>
 <hr />
+<h3><code>A</code> ( <em>character 1</em> ) represents the type of credit offered by the activity.</h3>
 <ul>
-<li>
-<p><code>A</code> ( <em>character 1</em> ) represents the <code>type of credit</code> offered by the activity.</p>
-<ul>
-<li><code>M</code>: CME</li>
-<li><code>P</code>: CPE</li>
-<li><code>N</code>: CNE</li>
-<li><code>D</code>: CDE</li>
-<li><code>T</code>: Osteopathic</li>
-<li><code>Y</code>: Physical Therapy</li>
-<li><code>A</code>: IACET</li>
-<li><code>X</code>: Multi-Disciplinary</li>
-<li><code>H</code>: Public Health</li>
-<li><code>W</code>: Non-accredited</li>
-</ul>
-</li>
+<li><code>M</code>  CME</li>
+<li><code>P</code>  CPE</li>
+<li><code>N</code>  CNE</li>
+<li><code>D</code>  CDE</li>
+<li><code>T</code>  Osteopathic</li>
+<li><code>Y</code>  Physical Therapy</li>
+<li><code>A</code>  IACET</li>
+<li><code>X</code>  Multi-Disciplinary</li>
+<li><code>H</code>  Public Health</li>
+<li><code>W</code>  Non-accredited</li>
 </ul>
 <hr />
-<ul>
-<li>
-<p><code>B</code> ( <em>character 2</em> ) represents the <code>activity type</code>.</p>
-</li>
-<li>
-<p><strong>E</strong>: <code>[Enduring]</code> </p>
+<h3><code>B</code> ( <em>character 2</em> ) represents the activity type.</h3>
+<p><code>E</code> [ <em>Enduring</em> ] </p>
 <ul>
 <li>Internet</li>
 <li>Print</li>
@@ -142,8 +151,7 @@
 <li>Other</li>
 <li>Perform.(ance) Improvement    </li>
 </ul>
-</li>
-<li><strong>L</strong>: <code>[Live]</code>
+<p><code>L</code> [ <em>Live</em> ]</p>
 <ul>
 <li>Course</li>
 <li>Internet</li>
@@ -155,28 +163,17 @@
 <li>Perform.(ance) Improvement</li>
 <li>Test Item Writing</li>
 <li>Undefined</li>
-</ul></li>
 </ul>
 <hr />
-<ul>
-<li>
-<p><code>C</code> ( <em>character 3</em> ) represents the <code>team type</code>.</p>
+<h3><code>C</code> ( <em>character 3</em> ) represents the team type.</h3>
 <ul>
 <li><code>S</code>: State</li>
 <li><code>N</code>: National</li>
 </ul>
-</li>
-</ul>
 <hr />
-<ul>
-<li>
-<p><code>12</code> ( <em>characters 4 &amp; 5</em> ) represent the <code>fiscal year</code>.</p>
-</li>
-<li>
-<p><code>345</code> ( <em>characters 6,7 &amp; 8</em> ) are <strong>assigned sequentially</strong> in the order an activity is created.</p>
-</li>
-<li><code>-67</code> ( <em>characters 9, 10 &amp; 11</em> ) are <strong>assigned sequentially</strong> in the order an activity's child elements are created.</li>
-</ul>
+<h3><code>12</code> ( <em>characters 4 &amp; 5</em> ) represent the fiscal year.</h3>
+<h3><code>345</code> ( <em>characters 6,7 &amp; 8</em> ) are assigned sequentially in the order an activity is created.</h3>
+<h3><code>-67</code> ( <em>characters 9, 10 &amp; 11</em> ) are assigned sequentially in the order an activity's child elements are created.</h3>
 <hr />
 <h3>Notes:</h3>
 <hr />
@@ -238,6 +235,40 @@ and act as a contact person for the activity.</p>
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
+
     });
 </script>
 

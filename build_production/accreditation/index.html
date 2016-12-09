@@ -93,6 +93,22 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
+                <li class="nav-header">Accreditation</li>
+
+            </ul>
+            <hr class="visible-xs m-t">
+        
+    </nav>
+</div>
 
 
 <div class = "container">
@@ -106,27 +122,29 @@
 <hr />
 <p><img src="../img/activity/accreditation.png" alt="image of accreditation" /></p>
 <hr />
-<h2>Designed to Change Competence?:</h2>
+<h2>Designed to Change Competence?</h2>
+<h3>level 1 in ascending precedence.</h3>
 <blockquote>
-<p>level 1 in ascending precedence.</p>
-</blockquote>
-<ul>
-<li>
-<h3>Will changes in Competence Be Measured?`</h3>
+<p>Will changes in Competence Be Measured?</p>
 <ul>
 <li>This box is automatically checked when the &quot;Designed to Change Competence?&quot; check box is checked.</li>
 </ul>
-</li>
-</ul>
-<h2>Designed to Change Performance?:</h2>
-<blockquote>
-<p>level 2 in ascending precedence.</p>
 </blockquote>
+<hr />
+<h2>Designed to Change Performance?</h2>
+<h3>level 2 in ascending precedence.</h3>
+<blockquote>
+<p>A short description of Designed to Change Performance.</p>
+</blockquote>
+<hr />
 <h2>Designed to Change Patient Outcomes?:</h2>
+<h3>level 3 in ascending precedence.</h3>
 <blockquote>
-<p>level 3 in ascending precedence.</p>
+<p>A short description of Designed to Change Patient Outcomes.</p>
 </blockquote>
+<hr />
 <h2>ACGME Competencies</h2>
+<blockquote>
 <ul>
 <li>Patient Care</li>
 <li>Medical knowledge</li>
@@ -135,8 +153,10 @@
 <li>Professionalism</li>
 <li>Systems-based practice</li>
 </ul>
+</blockquote>
 <hr />
 <h2>IOM Competencies</h2>
+<blockquote>
 <ul>
 <li>Provide patient-centered care</li>
 <li>Work in interdisciplinary teams</li>
@@ -144,14 +164,17 @@
 <li>Apply quality improvement</li>
 <li>Utilitze informatics</li>
 </ul>
+</blockquote>
 <hr />
 <h2>IPE Competencies</h2>
+<blockquote>
 <ul>
 <li>Values/Ethics for Interprofessional Practice</li>
 <li>Roles/Responsibilities</li>
 <li>Interprofessional Communication</li>
 <li>Teams and Teamwork</li>
 </ul>
+</blockquote>
 </div>
 
     </div>
@@ -165,6 +188,40 @@
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
+
     });
 </script>
 

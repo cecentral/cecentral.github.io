@@ -93,6 +93,22 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="col-sm-3 sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-header">
+            <a class="sidebar-brand img-responsive" href="index.html">
+                <span class="icon icon-leaf sidebar-brand-icon"></span>
+            </a>
+        </div>
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked">
+                <li class="nav-header">Details</li>
+
+            </ul>
+            <hr class="visible-xs m-t">
+        
+    </nav>
+</div>
 
 
 <div class = "container">
@@ -102,37 +118,37 @@
         <div class="container">
     <div class="col-md-8 col-md-offset-2">
 
-        <div class="col-lg"><h2>Activity Details</h2>
+        <div class="col-lg"><h1><code>Activity Details</code></h1>
 <hr />
-<p><a href="/details"><code>Details</code></a></p>
+<h2><a href="/details">Details</a></h2>
 <hr />
 <p><a href="/details"><img src="../img/activity/details.png" alt="image of Activity Details" /></a></p>
 <hr />
-<p><a href="/publishing-options"><code>Publishing options</code></a></p>
+<h2><a href="/publishing-options">Publishing options</a></h2>
 <hr />
 <p><a href="/publishing-options"><img src="../img/activity/publishing_options.png" alt="image of Publishing Options" /></a></p>
 <hr />
-<p><a href="/accreditation"><code>Accreditation</code></a></p>
+<h2><a href="/accreditation">Accreditation</a></h2>
 <hr />
 <p><a href="/accreditation"><img src="../img/activity/accreditation.png" alt="image of Accreditation" /></a></p>
 <hr />
-<p><a href="/location"><code>Location</code></a></p>
+<h2><a href="/location">Location</a></h2>
 <hr />
 <p><a href="/location"><img src="../img/activity/location.png" alt="image of Location" /></a></p>
 <hr />
-<p><a href="/options"><code>Options</code></a></p>
+<h2><a href="/options">Options</a></h2>
 <hr />
 <p><a href="/options"><img src="../img/activity/options.png" alt="image of Options" /></a></p>
 <hr />
-<p><a href="/get-credit"><code>Get Credit</code></a></p>
+<h2><a href="/get-credit">Get Credit</a></h2>
 <hr />
 <p><a href="/get-credit"><img src="../img/activity/get_credit.png" alt="image of Get Credit" /></a></p>
 <hr />
-<p><a href="/outcomes"><code>Outcomes</code></a></p>
+<h2><a href="/outcomes">Outcomes</a></h2>
 <hr />
 <p><a href="/outcomes"><img src="../img/activity/outcomes.png" alt="image of Outcomes" /></a></p>
 <hr />
-<p><a href="/topics"><code>Topics</code></a></p>
+<h2><a href="/topics">Topics</a></h2>
 <hr />
 <p><a href="/topics"><img src="../img/activity/topics.png" alt="image of Topics" /></a></p>
 <hr />
@@ -149,6 +165,40 @@
         $("img").addClass("img-responsive");
         $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each( function(index, element) {
+            var $element   = $(element);
+            var $text   = $element.text();
+            var $wrap   = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each( $('#sidebar'), function(index, sidebar) {
+            $('li', sidebar).each(function(index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
+
+//        $('li').each( function(index, element) {
+//            var $element = $(element);
+//            var $link = $element.find('a');
+//                $link.attr("href", "#" + $array[index]);
+//                $link.text($array[index]);
+//                console.log("array: " + $array[index]);
+//                console.log("index: " + index);
+//        })
+
     });
 </script>
 
