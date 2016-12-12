@@ -4,7 +4,7 @@ section: sub-page-body
 pageTitle: Activities
 ---
 
-#`Activities`
+# `Activities`
 
 ---
 

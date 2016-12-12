@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
     {{--<title>Guidebook</title>--}}
     <title>{{ $pageTitle }}</title>
@@ -63,6 +64,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+
+                <!--leave in case of searchbar-->
                 {{--<li class="disabled"><a href="/readme">Login</a></li>--}}
                 {{--<li>--}}
                     {{--<form class="navbar-form navbar-right">--}}
@@ -72,6 +75,7 @@
                         {{--<button type="submit" class="btn btn-default" disabled>Submit</button>--}}
                     {{--</form>--}}
                 {{--</li>--}}
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -93,32 +97,41 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="col-sm-3 sidebar">
-    <nav class="sidebar-nav">
-        <div class="sidebar-header">
-            <a class="sidebar-brand img-responsive" href="index.html">
-                <span class="icon icon-leaf sidebar-brand-icon"></span>
-            </a>
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar">
+            <nav class="sidebar-nav navbar-right">
+                <ul id="sidebar" class="nav nav-pills nav-stacked">
+                    <li class="nav-header">{{ $pageTitle }}
+                        <span class="glyphicon glyphicon-link"></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>{{--col--}}
+
+        <div class = "container col-sm-8 col-md-8 col-lg-8">
+
+            <div class="flex-center position-ref">
+
+                @yield('body')
+
+            </div>{{--flex--}}
+
+        </div>{{--col--}}
+
+
+        <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
         </div>
 
-            <ul id="sidebar" class="nav nav-pills nav-stacked">
-                <li class="nav-header">{{ $pageTitle }}</li>
+    </div>{{--row--}}
 
-            </ul>
-            <hr class="visible-xs m-t">
-        {{--</div>--}}
-    </nav>
-</div>
+</div>{{--container--}}
 
-
-<div class = "container">
-
-    <div class="flex-center position-ref">
-
-        @yield('body')
-
-    </div>
-</div>
 
 <script>
     $(document).ready(function () {
