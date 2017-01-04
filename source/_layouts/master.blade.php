@@ -25,7 +25,7 @@
 
 
     <!--Magnify-->
-    <script src="/js/bootstrap-magnify.js"></script>
+    {{--<script src="/js/bootstrap-magnify.js"></script>--}}
 
     <!--Clipboard-->
     <script src="/js/clipboard.js"></script>
@@ -136,15 +136,15 @@
 <script>
     $(document).ready(function () {
         $("img").addClass("img-responsive");
-        $("img").attr('data-toggle', 'magnify');
+//        $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
 
         var $array = [];
 //        $.each($('h2'), function() {
-        $('h2').each( function(index, element) {
-            var $element   = $(element);
-            var $text   = $element.text();
-            var $wrap   = $element.wrap('<a></a>');
+        $('h2').each(function (index, element) {
+            var $element = $(element);
+            var $text = $element.text();
+            var $wrap = $element.wrap('<a></a>');
             var $parent = $element.parent().attr("name", $text);
             $("#sidebar").append('<li><a></a></li>');
             $array.push($text);
@@ -152,8 +152,8 @@
         console.log($array);
         console.log($array[3]);
 
-        $.each( $('#sidebar'), function(index, sidebar) {
-            $('li', sidebar).each(function(index, element) {
+        $.each($('#sidebar'), function (index, sidebar) {
+            $('li', sidebar).each(function (index, element) {
                 var $element = $(element);
                 var $link = $element.find('a');
                 $link.attr("href", "#" + $array[index]);
@@ -163,16 +163,57 @@
             });
         });
 
-//        $('li').each( function(index, element) {
-//            var $element = $(element);
-//            var $link = $element.find('a');
-//                $link.attr("href", "#" + $array[index]);
-//                $link.text($array[index]);
-//                console.log("array: " + $array[index]);
-//                console.log("index: " + index);
-//        })
+        $('#img').replaceWith(
+            '<!-- Button trigger modal -->' +
+            '<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">' +
+            'Launch demo modal' +
+            '</button>');
+        $('.container-fluid').append(
+            '<div class="modal fade" id=myModal tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">' +
+            '<div class="modal-dialog modal-lg" role="document">' +
+            '<div class="modal-content">' +
+            '<div class="modal-header">' +
+            '<button type="button" class="close" data-dismiss="modal" aria-label="Close">' +
+            '<span aria-hidden="true">' +
+            '&times;' +
+            '</span>' +
+            '</button>' +
+            '<h4 class="modal-title" id="gridSystemModalLabel">' +
+            'Modal title' +
+            '</h4>' +
+            '</div>' +
+            '<div class="modal-body">' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<img src="../img/activity/FindActivity.png" alt="image of Activity Quick Search" class="img-responsive">' +
+            '</div>' +
+            '</div>' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<hr>' +
+            '<blockquote>' +
+            '<p><strong><em>' +
+            'Find an Activity</em></strong>: Search here using a Keyword, Activity Code, or Activity ID.' +
+            'Click the checkbox to enable searching by date range.</p>' +
+            '</blockquote>' +
+            '<hr>' +
+            '</div>' +
+            '</div>' +
+            '</div><!-- /.modal-body -->' +
+            '<div class="modal-footer">' +
+            '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
+            '<button type="button" class="btn btn-primary">Save changes</button>' +
+            '</div><!-- /.modal-footer -->' +
+            '</div><!-- / .modal-content -->' +
+            '</div><!-- /.modal-dialog -->' +
+            '</div><!-- /.modal -->'
+        );
 
     });
+
+
+
+
 </script>
 
 <script type="text/javascript" src="https://cecentral.atlassian.net/s/1136c0e400521f6211e2d32621089b59-T/tn9djs/100011/c/1000.0.9/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=b27e03cf"></script>
