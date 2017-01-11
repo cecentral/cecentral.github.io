@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
     
     <title>Publishing Options</title>
@@ -21,10 +22,6 @@
     <!--Bootstrap-->
     
     <script src="/js/bootstrap.min.js"></script>
-
-
-    <!--Magnify-->
-    <script src="/js/bootstrap-magnify.js"></script>
 
     <!--Clipboard-->
     <script src="/js/clipboard.js"></script>
@@ -63,6 +60,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+
+                <!--leave in case of searchbar-->
                 
                 
                     
@@ -72,6 +71,7 @@
                         
                     
                 
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -93,44 +93,51 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="col-sm-3 sidebar">
-    <nav class="sidebar-nav">
-        <div class="sidebar-header">
-            <a class="sidebar-brand img-responsive" href="index.html">
-                <span class="icon icon-leaf sidebar-brand-icon"></span>
-            </a>
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar">
+            <nav class="sidebar-nav navbar-right">
+                <ul id="sidebar" class="nav nav-pills nav-stacked">
+                    <li class="nav-header">Publishing Options
+                        <span class="glyphicon glyphicon-link"></span>
+                    </li>
+                </ul>
+            </nav>
         </div>
 
-            <ul id="sidebar" class="nav nav-pills nav-stacked">
-                <li class="nav-header">Publishing Options</li>
+        <div class = "container col-sm-8 col-md-8 col-lg-8">
 
-            </ul>
-            <hr class="visible-xs m-t">
-        
-    </nav>
-</div>
+            <div class="flex-center position-ref">
 
-
-<div class = "container">
-
-    <div class="flex-center position-ref">
-
-        <div class="container">
+                <div class="container">
     <div class="col-md-8 col-md-offset-2">
 
-        <div class="col-lg"><h1>Publishing Options</h1>
+        <div class="col-lg"><h1><code>Publishing Options</code></h1>
 <hr />
 <p><img src="../img/activity/publishing_options.png" alt="image of publishing options" /></p>
 <hr />
 <h2>Status</h2>
 <hr />
-<ul>
-<li><code>Active</code>: Available for credit or registration.</li>
-<li><code>Inactive</code>: Not ready for launch.</li>
-<li><code>Proposed / Idea</code>: In proposal or idea generator process</li>
-<li><code>Archived</code>: No longer available for credit, some close-out information may be incomplete.</li>
-</ul>
+<h3>Active</h3>
+<blockquote>
+<p>Available for credit or registration.</p>
+</blockquote>
+<h3>Inactive</h3>
+<blockquote>
+<p>Not ready for launch.</p>
+</blockquote>
+<h3>Proposed / Idea</h3>
+<blockquote>
+<p>In proposal or idea generator process</p>
+</blockquote>
+<h3>Archived</h3>
+<blockquote>
+<p>No longer available for credit, some close-out information may be incomplete.</p>
+</blockquote>
 <hr />
+<h3>Notes</h3>
 <blockquote>
 <p>The transistion to an archived status occurs automatically the day after an event
 closes for [Enduring] events, or the day after the 60 day sunset period following
@@ -138,11 +145,18 @@ a [Live] event. This change does not occur automatically, it is a scheduled even
 on the server that occurs at midnight.</p>
 </blockquote>
 <hr />
-<ul>
-<li><code>Canceled</code>: Program has been canceled.</li>
-<li><code>Closed</code>: Nothing left to be done.</li>
-<li><code>Conference Reg</code> .(istration) <code>Placeholder</code>: Activity &quot;shell&quot; for `a la carte registration fees. </li>
-</ul>
+<h3>Canceled</h3>
+<blockquote>
+<p>Program has been canceled.</p>
+</blockquote>
+<h3>Closed</h3>
+<blockquote>
+<p>Nothing left to be done.</p>
+</blockquote>
+<h3>Conference Reg .(istration) Placeholder</h3>
+<blockquote>
+<p>Activity &quot;shell&quot; for `a la carte registration fees. </p>
+</blockquote>
 <hr />
 <h2>Start Date</h2>
 <hr />
@@ -169,21 +183,34 @@ in order for the activity to display on the site.</p>
     </div>
 </div>
 
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+        </div>
+
     </div>
+
 </div>
+
 
 <script>
     $(document).ready(function () {
         $("img").addClass("img-responsive");
-        $("img").attr('data-toggle', 'magnify');
+//        $("img").attr('data-toggle', 'magnify');
         //clip-link.js//
 
         var $array = [];
 //        $.each($('h2'), function() {
-        $('h2').each( function(index, element) {
-            var $element   = $(element);
-            var $text   = $element.text();
-            var $wrap   = $element.wrap('<a></a>');
+        $('h2').each(function (index, element) {
+            var $element = $(element);
+            var $text = $element.text();
+            var $wrap = $element.wrap('<a></a>');
             var $parent = $element.parent().attr("name", $text);
             $("#sidebar").append('<li><a></a></li>');
             $array.push($text);
@@ -191,8 +218,8 @@ in order for the activity to display on the site.</p>
         console.log($array);
         console.log($array[3]);
 
-        $.each( $('#sidebar'), function(index, sidebar) {
-            $('li', sidebar).each(function(index, element) {
+        $.each($('#sidebar'), function (index, sidebar) {
+            $('li', sidebar).each(function (index, element) {
                 var $element = $(element);
                 var $link = $element.find('a');
                 $link.attr("href", "#" + $array[index]);
@@ -202,16 +229,57 @@ in order for the activity to display on the site.</p>
             });
         });
 
-//        $('li').each( function(index, element) {
-//            var $element = $(element);
-//            var $link = $element.find('a');
-//                $link.attr("href", "#" + $array[index]);
-//                $link.text($array[index]);
-//                console.log("array: " + $array[index]);
-//                console.log("index: " + index);
-//        })
+        $('#img').replaceWith(
+            '<!-- Button trigger modal -->' +
+            '<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">' +
+            'Launch demo modal' +
+            '</button>');
+        $('.container-fluid').append(
+            '<div class="modal fade" id=myModal tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">' +
+            '<div class="modal-dialog modal-lg" role="document">' +
+            '<div class="modal-content">' +
+            '<div class="modal-header">' +
+            '<button type="button" class="close" data-dismiss="modal" aria-label="Close">' +
+            '<span aria-hidden="true">' +
+            '&times;' +
+            '</span>' +
+            '</button>' +
+            '<h4 class="modal-title" id="gridSystemModalLabel">' +
+            'Modal title' +
+            '</h4>' +
+            '</div>' +
+            '<div class="modal-body">' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<img src="../img/activity/FindActivity.png" alt="image of Activity Quick Search" class="img-responsive">' +
+            '</div>' +
+            '</div>' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<hr>' +
+            '<blockquote>' +
+            '<p><strong><em>' +
+            'Find an Activity</em></strong>: Search here using a Keyword, Activity Code, or Activity ID.' +
+            'Click the checkbox to enable searching by date range.</p>' +
+            '</blockquote>' +
+            '<hr>' +
+            '</div>' +
+            '</div>' +
+            '</div><!-- /.modal-body -->' +
+            '<div class="modal-footer">' +
+            '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
+            '<button type="button" class="btn btn-primary">Save changes</button>' +
+            '</div><!-- /.modal-footer -->' +
+            '</div><!-- / .modal-content -->' +
+            '</div><!-- /.modal-dialog -->' +
+            '</div><!-- /.modal -->'
+        );
 
     });
+
+
+
+
 </script>
 
 <script type="text/javascript" src="https://cecentral.atlassian.net/s/1136c0e400521f6211e2d32621089b59-T/tn9djs/100011/c/1000.0.9/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=b27e03cf"></script>
