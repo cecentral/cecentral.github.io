@@ -12,7 +12,7 @@ pageTitle: Activities
 
 ---
 
-![image of Activity Quick Search](../img/activity/FindActivity.png)
+[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
 
 ---
 >**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
