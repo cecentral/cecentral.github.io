@@ -22,7 +22,7 @@ pageTitle: Guidebook
 
 ---
 
-[![image of Activities Tab](../img/activity/ActivitiesTab.png)](/activities)
+[![image of Activities Tab](../img/activity/ProjectCentral.png)](/activities)
 
 ---
 
