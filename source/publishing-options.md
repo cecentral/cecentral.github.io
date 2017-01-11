@@ -4,7 +4,7 @@ section: sub-page-body
 pageTitle: Publishing Options
 ---
 
-# Publishing Options
+#`Publishing Options`
 
 ---
 
@@ -16,12 +16,21 @@ pageTitle: Publishing Options
 
 ---
 
-- `Active`: Available for credit or registration.
-- `Inactive`: Not ready for launch.
-- `Proposed / Idea`: In proposal or idea generator process
-- `Archived`: No longer available for credit, some close-out information may be incomplete.
+###Active
+>Available for credit or registration.
+
+###Inactive
+>Not ready for launch.
+
+###Proposed / Idea
+>In proposal or idea generator process
+
+###Archived
+>No longer available for credit, some close-out information may be incomplete.
 
 ---
+
+###Notes
 
 >The transistion to an archived status occurs automatically the day after an event
 >closes for [Enduring] events, or the day after the 60 day sunset period following
@@ -30,9 +39,14 @@ pageTitle: Publishing Options
 
 ---
 
-- `Canceled`: Program has been canceled.
-- `Closed`: Nothing left to be done.
-- `Conference Reg` .(istration) `Placeholder`: Activity "shell" for `a la carte registration fees. 
+###Canceled
+>Program has been canceled.
+
+###Closed
+>Nothing left to be done.
+
+###Conference Reg .(istration) Placeholder
+>Activity "shell" for `a la carte registration fees. 
 
 ---
 
