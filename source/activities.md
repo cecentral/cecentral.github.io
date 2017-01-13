@@ -45,7 +45,7 @@ Staff Associate
 
 ---
 
-[![image of PJC Dashboard Staff Associate Selection](../img/activity/PJCDashStaffAssoc.png)](/activity-dialog)
+[![image of PJC Dashboard Staff Associate Selection](../img/activity/PJCDashboardStaffAssoc.png)](/activity-dialog)
 
 ---
 
