@@ -12,7 +12,7 @@ pageTitle: Credit
 
 ---
 
-![Image of Credit](../img/credit/manage_credits.png)
+![Image of Credit](../img/credit/ManageCredits.png)
 
 ---
 
@@ -24,7 +24,7 @@ pageTitle: Credit
 
 ---
 
-![Image of Credit Type](../img/credit/credit_type.png)
+![Image of Credit Type](../img/credit/CreditType.png)
 
 ---
 

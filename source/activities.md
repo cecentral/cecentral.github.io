@@ -58,7 +58,7 @@ Activity Type
 
 ---
 
-[![image of PJC Dashboard Activity Type Selection](../img/activity/PJCDashActivityType.png)](/activity-dialog)
+[![image of PJC Dashboard Activity Type Selection](../img/activity/PJCDashboardActivityType.png)](/activity-dialog)
 
 ---
 

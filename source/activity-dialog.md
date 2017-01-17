@@ -12,7 +12,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Activity Details](../img/activity/details.png)](/activity-details)
+[![image of Activity Details](../img/activity/Details.png)](/activity-details)
 
 ---
 
@@ -24,7 +24,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Credit](../img/credit/manage_credits.png)](/credit)
+[![image of Credit](../img/credit/ManageCredits.png)](/credit)
 
 ---
 
@@ -48,7 +48,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Agenda](../img/activity/details.png)](/agenda)
+[![image of Agenda](../img/activity/Details.png)](/agenda)
 
 ---
 
@@ -72,7 +72,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Assets](../img/activity/location.png)](/assets)
+[![image of Assets](../img/activity/Assets.png)](/assets)
 
 ---
 
