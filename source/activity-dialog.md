@@ -48,7 +48,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Agenda](../img/activity/Details.png)](/agenda)
+[![image of Agenda](../img/activity/Agenda.png)](/agenda)
 
 ---
 

@@ -20,15 +20,22 @@ pageTitle: Activities
 
 ---
 
-##Manage Activities
+##**Manage Activities**
 
 ---
 
-###[PJC Dashboard](/activity-dialog)
+##[PJC Dashboard](/activity-dialog)
 
 ---
 
-Coordinator
+> Notes
+> ...
+> ...
+> ...
+
+---
+
+##Coordinator
 
 ---
 
@@ -41,7 +48,7 @@ Coordinator
 
 ---
 
-Staff Associate
+##Staff Associate
 
 ---
 
@@ -54,7 +61,7 @@ Staff Associate
 
 ---
 
-Activity Type
+##Activity Type
 
 ---
 
@@ -67,7 +74,7 @@ Activity Type
 
 ---
 
-###[Find Activity](/activity-dialog)
+##[Find Activity](/activity-dialog)
 
 ---
 
@@ -79,7 +86,7 @@ Activity Type
 
 ---
 
-###[Add New Activity](/activity-dialog)
+##[Add New Activity](/activity-dialog)
 
 ---
 

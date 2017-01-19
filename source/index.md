@@ -30,7 +30,15 @@ pageTitle: Guidebook
 
 ---
 
+[![image of Activities Tab](../img/activity/Members.png)](/activities)
+
+---
+
 ##Clients
+
+---
+
+[![image of Activities Tab](../img/activity/Clients.png)](/activities)
 
 ---
 
@@ -38,7 +46,15 @@ pageTitle: Guidebook
 
 ---
 
+[![image of Activities Tab](../img/activity/Reports.png)](/activities)
+
+---
+
 ##Finance
+
+---
+
+[![image of Activities Tab](../img/activity/Finance.png)](/activities)
 
 ---
 
@@ -47,5 +63,9 @@ pageTitle: Guidebook
 ---
 
 ##Tools
+
+---
+
+[![image of Activities Tab](../img/activity/Tools.png)](/activities)
 
 ---
