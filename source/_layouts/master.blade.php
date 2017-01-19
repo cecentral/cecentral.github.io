@@ -63,12 +63,12 @@
                         <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
                         <li><a href="/">Table of Contents</a></li>
                         <li><a href="/activities" class="btn pull-left">Activities</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Members</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Clients</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Reports</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Finance</a></li>
+                        <li><a href="/members" class="btn pull-left">Members</a></li>
+                        <li><a href="/clients" class="btn pull-left">Clients</a></li>
+                        <li><a href="/reports" class="btn pull-left">Reports</a></li>
+                        <li><a href="/finance" class="btn pull-left">Finance</a></li>
                         <li><a href="#" class="btn disabled pull-left" disabled>Ideas</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Tools</a></li>
+                        <li><a href="/tools" class="btn pull-left">Tools</a></li>
                         <li role="separator" id="divider" class="divider"></li>
                         <li><a href="http://cecentral.atlassian.net">Jira</a></li>
                     </ul>
