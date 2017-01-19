@@ -84,7 +84,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Faculty](../img/activity/options.png)](/faculty)
+[![image of Faculty](../img/activity/Faculty.png)](/faculty)
 
 ---
 
@@ -96,7 +96,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Registrants](../img/activity/options.png)](/registrants)
+[![image of Registrants](../img/activity/Registrants.png)](/registrants)
 
 ---
 
