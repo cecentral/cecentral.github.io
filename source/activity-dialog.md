@@ -12,7 +12,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Activity Details](../img/activity/details.png)](/activity-details)
+[![image of Activity Details](../img/activity/Details.png)](/activity-details)
 
 ---
 
@@ -24,7 +24,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Credit](../img/credit/manage_credits.png)](/credit)
+[![image of Credit](../img/activity/Credit.png)](/credit)
 
 ---
 
@@ -36,7 +36,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Activity Sessions](../img/activity/publishing_options.png)](/activity-sessions)
+[![image of Activity Sessions](../img/activity/Sessions.png)](/activity-sessions)
 
 ---
 
@@ -48,7 +48,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Agenda](../img/activity/details.png)](/agenda)
+[![image of Agenda](../img/activity/Agenda.png)](/agenda)
 
 ---
 
@@ -60,7 +60,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Front Matter](../img/activity/accreditation.png)](/front-matter)
+[![image of Front Matter](../img/activity/FrontMatter.png)](/front-matter)
 
 ---
 
@@ -72,7 +72,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Assets](../img/activity/location.png)](/assets)
+[![image of Assets](../img/activity/Assets.png)](/assets)
 
 ---
 
@@ -84,7 +84,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Faculty](../img/activity/options.png)](/faculty)
+[![image of Faculty](../img/activity/Faculty.png)](/faculty)
 
 ---
 
@@ -96,7 +96,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Registrants](../img/activity/options.png)](/registrants)
+[![image of Registrants](../img/activity/Registrants.png)](/registrants)
 
 ---
 

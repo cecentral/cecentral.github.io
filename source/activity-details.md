@@ -12,7 +12,7 @@ pageTitle: Details
 
 ---
 
-[![image of Activity Details](../img/activity/details.png)](/details)
+[![image of Activity Details](../img/activity/Details.png)](/details)
 
 ---
 
