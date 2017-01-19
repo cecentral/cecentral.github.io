@@ -8,10 +8,14 @@ pageTitle: Registrants
 
 ---
 
-![Image of Registrants](../img/activity/get_credit.png)
+##Attach Student
 
 ---
 
-`stub`
+[![image of Registrants](../img/activity/AttachStudent.png)](/registrants)
+
+---
+
+>A short description of Registrants.
 
 ---
