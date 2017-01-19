@@ -20,7 +20,7 @@ pageTitle: Credit
 
 ---
 
-###Credit Type
+##Credit Type
 
 ---
 
@@ -32,7 +32,20 @@ pageTitle: Credit
 
 ---
 
-###Credit Units
+##Type of Activity
+
+---
+
+![Image of Credit Type](../img/credit/TypeOfActivity.png)
+
+---
+
+>A short description of Credit Type.
+
+---
+
+##Credit Units
+
 
 ---
 
@@ -40,7 +53,7 @@ pageTitle: Credit
 
 ---
 
-###External ID
+##External ID
 
 ---
 
@@ -48,7 +61,7 @@ pageTitle: Credit
 
 ---
 
-###Add
+##Add
 
 ---
 
@@ -56,10 +69,22 @@ pageTitle: Credit
 
 ---
 
-###Credit List
+##Credit List
 
 ---
 
 >A short description of Credit List
+
+---
+
+##Edit Existing Credit
+
+---
+
+![Image of Credit Type](../img/credit/EditCredit.png)
+
+---
+
+>A short description of Editing Credit
 
 ---

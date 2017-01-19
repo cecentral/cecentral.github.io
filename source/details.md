@@ -8,11 +8,11 @@ pageTitle: Details
 
 ---
 
-![image of details](../img/activity/details.png)
+#Activity Code Setup
 
 ---
 
-#Activity Code Setup
+![image of details](../img/activity/DetailsSetup.png)
 
 ---
 
@@ -86,6 +86,14 @@ pageTitle: Details
 >the page refreshes, the "Activity Code Setup" form will be hidden. To update an 
 >activity code you must click on the "Activity Code Setup" link to make the form 
 >appear. Then the "Lock Activity Code" check box must be un-checked.
+
+---
+
+##Fiscal Year
+
+---
+
+![image of details](../img/activity/DetailsFiscalYear.png)
 
 ---
 

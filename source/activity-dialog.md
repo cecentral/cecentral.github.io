@@ -24,7 +24,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Credit](../img/credit/ManageCredits.png)](/credit)
+[![image of Credit](../img/activity/Credit.png)](/credit)
 
 ---
 
@@ -36,7 +36,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Activity Sessions](../img/activity/publishing_options.png)](/activity-sessions)
+[![image of Activity Sessions](../img/activity/Sessions.png)](/activity-sessions)
 
 ---
 
@@ -60,7 +60,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Front Matter](../img/activity/accreditation.png)](/front-matter)
+[![image of Front Matter](../img/activity/FrontMatter.png)](/front-matter)
 
 ---
 
