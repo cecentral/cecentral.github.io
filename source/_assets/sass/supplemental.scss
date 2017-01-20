@@ -1,107 +1,63 @@
-.navbar-brand {
-    width: 220px;
-    background:
-            url(../../img/logo-alt.svg)
-            center center / 200px 200px
-            #094370
-            no-repeat
-}
-
-html, body {
-    background-color: #fff;
-    color: #495155;
-    /*color: #636b6f;*/
-    font-family: 'Raleway';
-    //font-weight: 600;
-    font-weight: 500;
-    height: 200vh;
-    font-size: 110%;
-    line-height: 125%;
-    margin: 0;
-}
-
-.full-height {
-    height: 100vh;
-}
-
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.position-ref {
-    position: relative;
-}
-
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-
-.content {
-    text-align: center;
-}
-
-.title {
-    font-size: 84px;
-}
-
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.m-b-md {
-    margin-bottom: 30px;
-}
-
-h1, h3 {
-
-    color: #2b3337;
-
-}
-
-
-code {
-
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background-color: rgba(77, 228, 255, 0.50);
-    border-radius: 5px;
-
-}
-
-blockquote {
-
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background-color: rgba(77, 228, 255, 0.50);
-    border-radius: 10px;
-
-}
-
-#divider {
-
-    clear: both;
-
-}
-
 //JIRA issue collector styling
 .atlwdg-popup {
 
     height: 90% !important;
     width: 80% !important;
 
+}
+
+//.sidebar-nav {
+//    position: fixed;
+//    top: 60px;
+//}
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+//body {
+//    padding-top: 70px;
+//}
+//footer {
+//    padding: 30px 0;
+//}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+    .row-offcanvas {
+        position: relative;
+        top: 60px;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }
+
+    .row-offcanvas-right .sidebar-offcanvas {
+        right: -50%; /* 6 columns */
+    }
+
+    .row-offcanvas-left .sidebar-offcanvas {
+        left: -50%; /* 6 columns */
+    }
+
+    .row-offcanvas-right.active {
+        right: 50%; /* 6 columns */
+    }
+
+    .row-offcanvas-left.active {
+        left: 50%; /* 6 columns */
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%; /* 6 columns */
+    }
 }
 
