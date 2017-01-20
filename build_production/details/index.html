@@ -4,22 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
     
     <title>Details</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/supplemental.css">
+    
 
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <!--Bootstrap-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="/js/bootstrap.min.js"></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -55,27 +57,18 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="disabled"><a href="/readme">Login</a></li>
-                <li>
-                    <form class="navbar-form navbar-right">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search" disabled>
-                        </div>
-                        <button type="submit" class="btn btn-default" disabled>Submit</button>
-                    </form>
-                </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
                         <li><a href="/">Table of Contents</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Activities</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Members</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Clients</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Reports</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Finance</a></li>
+                        <li><a href="/activities" class="btn pull-left">Activities</a></li>
+                        <li><a href="/members" class="btn pull-left">Members</a></li>
+                        <li><a href="/clients" class="btn pull-left">Clients</a></li>
+                        <li><a href="/reports" class="btn pull-left">Reports</a></li>
+                        <li><a href="/finance" class="btn pull-left">Finance</a></li>
                         <li><a href="#" class="btn disabled pull-left" disabled>Ideas</a></li>
-                        <li><a href="#" class="btn disabled pull-left" disabled>Tools</a></li>
+                        <li><a href="/tools" class="btn pull-left">Tools</a></li>
                         <li role="separator" id="divider" class="divider"></li>
                         <li><a href="http://cecentral.atlassian.net">Jira</a></li>
                     </ul>
@@ -85,129 +78,188 @@
     </div><!-- /.container-fluid -->
 </nav>
 
+<div class="container-fluid">
 
+    <div class="row">
 
-<div class = "container">
+        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar">
+            <nav class="sidebar-nav navbar-right">
+                <ul id="sidebar" class="nav nav-pills nav-stacked">
+                    <li class="nav-header">Details
+                        <span class="glyphicon glyphicon-link"></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-    <div class="flex-center position-ref">
+        <div class = "container col-sm-8 col-md-8 col-lg-8">
 
-        <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+            <div class="flex-center position-ref">
 
-        <div class="col-lg"><h1>Activities: Details</h1>
-<p><img src="../img/activity/details.png" alt="image of details" /></p>
-<h3>Activity Code Setup</h3>
+                <div class="container-fluid">
+    <div class="col-md-12 col-md-offset-2">
+
+        <div class="col-lg"><h1><code>Activities: Details</code></h1>
 <hr />
-<p><strong>Format</strong>: <em><strong><code>ABC12345-67</code></strong></em></p>
+<h1>Activity Code Setup</h1>
+<hr />
+<p><img src="../img/activity/DetailsSetup.png" alt="image of details" /></p>
+<hr />
+<h2>Format</h2>
+<p><code>ABC12345-67</code></p>
+<hr />
+<h3><code>A</code> ( <em>character 1</em> ) represents the type of credit offered by the activity.</h3>
 <ul>
-<li>
-<p><em>The first letter <code>(A)</code> represents the <code>type of credit</code> offered by the activity.</em></p>
-<ul>
-<li><strong>M</strong>: <code>CME</code></li>
-<li><strong>P</strong>: <code>CPE</code></li>
-<li><strong>N</strong>: <code>CNE</code></li>
-<li><strong>D</strong>: <code>CDE</code></li>
-<li><strong>T</strong>: <code>Osteopathic</code></li>
-<li><strong>Y</strong>: <code>Physical Therapy</code></li>
-<li><strong>A</strong>: <code>IACET</code></li>
-<li><strong>X</strong>: <code>Multi-Disciplinary</code></li>
-<li><strong>H</strong>: <code>Public Health</code></li>
-<li><strong>W</strong>: <code>Non-accredited</code></li>
+<li><code>M</code>  CME</li>
+<li><code>P</code>  CPE</li>
+<li><code>N</code>  CNE</li>
+<li><code>D</code>  CDE</li>
+<li><code>T</code>  Osteopathic</li>
+<li><code>Y</code>  Physical Therapy</li>
+<li><code>A</code>  IACET</li>
+<li><code>X</code>  Multi-Disciplinary</li>
+<li><code>H</code>  Public Health</li>
+<li><code>W</code>  Non-accredited</li>
 </ul>
-</li>
-<li>
-<p><em>The second letter <code>(B)</code> represents the <code>activity type</code>.</em></p>
+<hr />
+<h3><code>B</code> ( <em>character 2</em> ) represents the activity type.</h3>
+<p><code>E</code> [ <em>Enduring</em> ] </p>
 <ul>
-<li><strong>E</strong>: <code>[Enduring]</code> 
-<ul>
-<li><code>Internet</code></li>
-<li><code>Print</code></li>
-<li><code>Journal</code></li>
-<li><code>CD/DVD</code></li>
-<li><code>Other</code></li>
-<li><code>Perform.(ance) Improvement</code></li>
-</ul></li>
-<li><strong>L</strong>: <code>[Live]</code>
-<ul>
-<li><code>Course</code></li>
-<li><code>Internet</code></li>
-<li><code>Regularly Scheduled Series</code></li>
-<li><code>Commitee Learning</code></li>
-<li><code>Internet Search/Learning</code></li>
-<li><code>Learning from Teaching</code></li>
-<li><code>Manuscript Review</code></li>
-<li><code>Perform.(ance) Improvement</code></li>
-<li><code>Test Item Writing</code></li>
-<li><code>Undefined</code></li>
-</ul></li>
+<li>Internet</li>
+<li>Print</li>
+<li>Journal</li>
+<li>CD/DVD</li>
+<li>Other</li>
+<li>Perform.(ance) Improvement    </li>
 </ul>
-</li>
-<li>
-<p><em>The third letter <code>(C)</code> represents the <code>team type</code>.</em></p>
+<p><code>L</code> [ <em>Live</em> ]</p>
 <ul>
-<li><strong>S</strong>: <code>State</code></li>
-<li><strong>N</strong>: <code>National</code> </li>
+<li>Course</li>
+<li>Internet</li>
+<li>Regularly Scheduled Series</li>
+<li>Commitee Learning</li>
+<li>Internet Search/Learning</li>
+<li>Learning from Teaching</li>
+<li>Manuscript Review</li>
+<li>Perform.(ance) Improvement</li>
+<li>Test Item Writing</li>
+<li>Undefined</li>
 </ul>
-</li>
-<li>
-<p><em>The first two numbers <code>(12)</code> represent the <code>fiscal year</code>.</em></p>
-</li>
-<li>
-<p><em>The third, fourth, and fifth numbers <code>(345)</code> are <code>assigned sequentially</code> in the order an activity is created.</em></p>
-</li>
-<li>
-<p><em>The sixth, and seventh numbers <code>(-67)</code> are <code>assigned sequentially</code> in the order an activity's child elements are created.</em></p>
-<p><strong>Notes</strong>:</p>
+<hr />
+<h3><code>C</code> ( <em>character 3</em> ) represents the team type.</h3>
+<ul>
+<li><code>S</code>: State</li>
+<li><code>N</code>: National</li>
+</ul>
+<hr />
+<h3><code>12</code> ( <em>characters 4 &amp; 5</em> ) represent the fiscal year.</h3>
+<h3><code>345</code> ( <em>characters 6,7 &amp; 8</em> ) are assigned sequentially in the order an activity is created.</h3>
+<h3><code>-67</code> ( <em>characters 9, 10 &amp; 11</em> ) are assigned sequentially in the order an activity's child elements are created.</h3>
+<hr />
+<h3>Notes:</h3>
+<hr />
 <blockquote>
-<p>Once an activity has been created, the value of the &quot;Lock Activity Code&quot; check box will change from <em>&quot;false&quot;</em> to <em>&quot;true&quot;</em>,
-causing the box to become checked.  When the page refreshes, the &quot;Activity Code Setup&quot; form will be hidden.  To update an
-activity code you must click on the &quot;Activity Code Setup&quot; link to make the form appear.  Then the &quot;Lock Activity Code&quot; check
-box must be un-checked.</p>
+<p>Once an activity has been created, the value of the &quot;Lock Activity Code&quot; check
+box will change from &quot;false&quot; to &quot;true&quot;, causing the box to become checked. When
+the page refreshes, the &quot;Activity Code Setup&quot; form will be hidden. To update an
+activity code you must click on the &quot;Activity Code Setup&quot; link to make the form
+appear. Then the &quot;Lock Activity Code&quot; check box must be un-checked.</p>
 </blockquote>
-</li>
-</ul>
 <hr />
-<h3>Title</h3>
-<ul>
-<li><code>Enter a title to use for the activity.</code></li>
-</ul>
+<h2>Fiscal Year</h2>
 <hr />
-<h3>Subtitle</h3>
-<ul>
-<li><code>Enter a short descriptive sentence to enhance the title of the activity.</code></li>
-</ul>
+<p><img src="../img/activity/DetailsFiscalYear.png" alt="image of details" /></p>
 <hr />
-<h3>Keywords</h3>
-<ul>
-<li><code>Enter terms you wish to use in the search function of your site.</code></li>
-</ul>
+<h2>Title</h2>
 <hr />
-<h3>Accounting Code</h3>
-<ul>
-<li><code>To be entered by the [financial officer](link to glossary term).</code></li>
-</ul>
+<blockquote>
+<p>Enter a title to use for the activity.</p>
+</blockquote>
 <hr />
-<h3>Coordinator</h3>
-<ul>
-<li><code>Select an activities and events coordinator from a [drop-down select box](http://link-to-glossary-term.com).</code></li>
-</ul>
+<h2>Subtitle</h2>
 <hr />
-<h3>Staff Associate</h3>
-<ul>
-<li><code>Select an activities and events coordinator from a [drop-down select box](link to glossary term).</code></li>
-</ul>
+<blockquote>
+<p>Enter a short descriptive sentence to enhance the title of the activity.</p>
+</blockquote>
+<hr />
+<h2>Keywords</h2>
+<hr />
+<blockquote>
+<p>Enter terms you wish to use in the search function of your site.</p>
+</blockquote>
+<hr />
+<h2>Accounting Code</h2>
+<hr />
+<blockquote>
+<p>To be entered by the financial officer.</p>
+</blockquote>
+<hr />
+<h2>Coordinator</h2>
+<hr />
+<blockquote>
+<p>Select an activities and events coordinator from a drop-down select box.</p>
+</blockquote>
+<hr />
+<h2>Staff Associate</h2>
+<hr />
+<blockquote>
+<p>Select a staff member from a drop-down select box to assist the coordinator
+and act as a contact person for the activity.</p>
+</blockquote>
+<hr />
 </div>
 
     </div>
 </div>
 
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+        </div>
+
     </div>
+
 </div>
+
 
 <script>
     $(document).ready(function () {
-        $(img).addClass("img-responsive");
+        $("img").addClass("img-responsive");
+
+        var $array = [];
+//        $.each($('h2'), function() {
+        $('h2').each(function (index, element) {
+            var $element = $(element);
+            var $text = $element.text();
+            var $wrap = $element.wrap('<a></a>');
+            var $parent = $element.parent().attr("name", $text);
+            $("#sidebar").append('<li><a></a></li>');
+            $array.push($text);
+        });
+        console.log($array);
+        console.log($array[3]);
+
+        $.each($('#sidebar'), function (index, sidebar) {
+            $('li', sidebar).each(function (index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+            });
+        });
     });
+
+
+
+
 </script>
 
 <script type="text/javascript" src="https://cecentral.atlassian.net/s/1136c0e400521f6211e2d32621089b59-T/tn9djs/100011/c/1000.0.9/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=b27e03cf"></script>
