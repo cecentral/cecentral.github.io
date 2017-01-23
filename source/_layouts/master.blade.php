@@ -41,12 +41,6 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -88,13 +82,13 @@
 
     <div class="row row-offcanvas row-offcanvas-left">
         <p class = "pull-left visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" data-target="#sidebar">
                 Toggle nav
             </button>
         </p>
 
         <div class="container col-sm-2 col-md-2 col-lg-2 sidebar-offcanvas">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <div class="navbar-offcanvas" id="sidebar">
                 <nav class="sidebar-nav navbar-left">
                     <ul id="sidebar" class="nav nav-pills nav-stacked">
                         <li class="nav-header">{{ $pageTitle }}
@@ -125,6 +119,12 @@
 
 
 <script>
+    $(document).ready(function() {
+        $('[data-toggle=offcanvas]').click(function() {
+            $('.row-offcanvas').toggleClass('active');
+        });
+    });
+
     $(document).ready(function () {
         $("img").addClass("img-responsive");
 
