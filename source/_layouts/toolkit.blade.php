@@ -37,138 +37,117 @@
   <style>
     /* note: this is a hack for ios iframe for bootstrap themes shopify page */
     /* this chunk of css is not part of the toolkit :) */
+
     body {
-      width: 1px;
-      min-width: 100%;
-      *width: 100%;
+        padding-top: 100px;
     }
 
-    .sidebar {
+    .sidebar-nav {
       position: fixed;
-      top: 60px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      z-index: 1;
     }
 
   </style>
 
 </head>
-
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://cecentral.com"></a>
+        </div>
 
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://cecentral.com"></a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="/">Guidebook<span class="sr-only">(current)</span></a></li>
-    </ul>
-
+        <ul class="nav navbar-nav">
+            <li><a href="/">Guidebook<span class="sr-only">(current)</span></a></li>
+        </ul>
   </div><!-- /.container-fluid -->
 </nav>
 
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="row">
 
-      <div class="col-sm-2 col-md-2 sidebar">
+    <div class="container col-sm-2 col-md-2 col-lg-2">
         <nav class="sidebar-nav">
-          <div class="sidebar-header">
-            {{--<button class="nav-toggler nav-toggler-sm sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-sm">--}}
-              {{--<span class="sr-only">Toggle nav</span>--}}
-            {{--</button>--}}
-            {{--<a class="sidebar-brand img-responsive" href="../index.html">--}}
-              {{--<span class="icon icon-leaf sidebar-brand-icon"></span>--}}
-            {{--</a>--}}
-          </div>
-
-          <div class="collapse navbar-collapse" id="sidebar-collapse">
-          {{--<div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">--}}
-             <ul class="nav nav-pills nav-stacked">
-                 <li class="dropdown nav-header">
-                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
-                   <ul class="dropdown-menu">
-                     <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
-                     <li><a href="/">Table of Contents</a></li>
-                     <li><a href="/activities" class="btn pull-left">Activities</a></li>
-                     <li><a href="/members" class="btn pull-left">Members</a></li>
-                     <li><a href="/clients" class="btn pull-left">Clients</a></li>
-                     <li><a href="/reports" class="btn pull-left">Reports</a></li>
-                     <li><a href="/finance" class="btn pull-left">Finance</a></li>
-                     <li><a href="#" class="btn disabled pull-left" disabled>Ideas</a></li>
-                     <li><a href="/tools" class="btn pull-left">Tools</a></li>
-                     <li role="separator" id="divider" class="divider"></li>
-                     <li><a href="http://cecentral.atlassian.net">Jira</a></li>
-                   </ul>
-                 </li>
-             </ul>
-            <ul class="nav nav-pills nav-stacked" id="sidebar">
-              {{--<li class="nav-header">More</li>--}}
-              {{--<li >--}}
-                {{--<a href="../docs/index.html">--}}
-                  {{--Toolkit docs--}}
-                {{--</a>--}}
-              {{--</li>--}}
-              {{--<li>--}}
-                {{--<a href="http://getbootstrap.com" target="blank">--}}
-                  {{--Bootstrap docs--}}
-                {{--</a>--}}
-              {{--</li>--}}
-            </ul>
-            <hr class="visible-xs m-t">
-          </div>
+            <div class="collapse navbar-collapse" id="sidebar-collapse">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="dropdown nav-header">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
+                            <li><a href="/">Table of Contents</a></li>
+                            <li><a href="/activities" class="btn pull-left">Activities</a></li>
+                            <li><a href="/members" class="btn pull-left">Members</a></li>
+                            <li><a href="/clients" class="btn pull-left">Clients</a></li>
+                            <li><a href="/reports" class="btn pull-left">Reports</a></li>
+                            <li><a href="/finance" class="btn pull-left">Finance</a></li>
+                            <li><a href="#" class="btn disabled pull-left" disabled>Ideas</a></li>
+                            <li><a href="/tools" class="btn pull-left">Tools</a></li>
+                            <li role="separator" id="divider" class="divider"></li>
+                            <li><a href="http://cecentral.atlassian.net">Jira</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked" id="sidebar"></ul>
+                {{--<hr class="visible-xs m-t">--}}
+            </div>
         </nav>
-      </div>
+    </div>
 
-      <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+          <div class="col-sm-8 col-md-8 col-lg-8">
 
-        <div class="row">
+            <div class="row">
 
-          @yield('body')
+              @yield('body')
 
-        </div>
+            </div>
 
-      </div><!--content-->
+          </div><!--content-->
 
     </div><!--row-->
-  </div><!--container-->
+</div><!--container-->
 
-  <script>
-      $(document).ready(function () {
-          $("img").addClass("img-responsive");
+    <script>
+        $(document).ready(function () {
+            $("img").addClass("img-responsive");
 
-          var $array = [];
-//        $.each($('h2'), function() {
-          $('h2').each(function (index, element) {
-              var $element = $(element);
-              var $text = $element.text();
-              var $wrap = $element.wrap('<a></a>');
-              var $parent = $element.parent().attr("name", $text);
-              $("#sidebar").append('<li><a></a></li>');
-              $array.push($text);
-          });
-          console.log($array);
-          console.log($array[3]);
+            var $array = [];
+            //        $.each($('h2'), function() {
+            $('h2').each(function (index, element) {
+                var $element = $(element);
+                var $text = $element.text();
+                var $wrap = $element.wrap('<a></a>');
+                var $parent = $element.parent().attr("name", $text);
+                $("#sidebar").append('<li><a></a></li>');
+                $array.push($text);
+                });
+            console.log($array);
+            console.log($array[3]);
 
-          $.each($('#sidebar'), function (index, sidebar) {
-              $('li', sidebar).each(function (index, element) {
-                  var $element = $(element);
-                  var $link = $element.find('a');
-                  $link.attr("href", "#" + $array[index]);
-                  $link.text($array[index]);
-                  console.log("array: " + $array[index]);
-                  console.log("index: " + index);
-              });
-          });
-      });
+            $.each($('#sidebar'), function (index, sidebar) {
+                $('li', sidebar).each(function (index, element) {
+                var $element = $(element);
+                var $link = $element.find('a');
+                $link.attr("href", "#" + $array[index]);
+                $link.text($array[index]);
+                console.log("array: " + $array[index]);
+                console.log("index: " + index);
+                });
+            });
+        });
 
     </script>
+
 </body>
 </html>
 

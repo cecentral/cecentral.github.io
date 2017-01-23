@@ -5866,4 +5866,39 @@ blockquote {
   height: 90% !important;
   width: 80% !important; }
 
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */ }
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    top: 60px;
+    transition: all 0.25s ease-out; }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -50%;
+    /* 6 columns */ }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%;
+    /* 6 columns */ }
+  .row-offcanvas-right.active {
+    right: 50%;
+    /* 6 columns */ }
+  .row-offcanvas-left.active {
+    left: 50%;
+    /* 6 columns */ }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    /* 6 columns */ } }
+
 /*# sourceMappingURL=main.css.map */
