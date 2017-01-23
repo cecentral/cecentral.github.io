@@ -42,26 +42,54 @@
       min-width: 100%;
       *width: 100%;
     }
+
+    .sidebar {
+      position: fixed;
+      top: 60px;
+    }
+
   </style>
 
 </head>
 
 <body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://cecentral.com"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Guidebook<span class="sr-only">(current)</span></a></li>
+    </ul>
+
+  </div><!-- /.container-fluid -->
+</nav>
+
   <div class="container-fluid">
     <div class="row">
 
       <div class="col-sm-2 col-md-2 sidebar">
         <nav class="sidebar-nav">
           <div class="sidebar-header">
-            <button class="nav-toggler nav-toggler-sm sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-sm">
-              <span class="sr-only">Toggle nav</span>
-            </button>
-            <a class="sidebar-brand img-responsive" href="../index.html">
-              <span class="icon icon-leaf sidebar-brand-icon"></span>
-            </a>
+            {{--<button class="nav-toggler nav-toggler-sm sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-sm">--}}
+              {{--<span class="sr-only">Toggle nav</span>--}}
+            {{--</button>--}}
+            {{--<a class="sidebar-brand img-responsive" href="../index.html">--}}
+              {{--<span class="icon icon-leaf sidebar-brand-icon"></span>--}}
+            {{--</a>--}}
           </div>
 
-          <div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">
+          <div class="collapse navbar-collapse" id="sidebar-collapse">
+          {{--<div class="collapse nav-toggleable-sm" id="nav-toggleable-sm">--}}
              <ul class="nav nav-pills nav-stacked">
                  <li class="dropdown nav-header">
                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
@@ -98,7 +126,7 @@
         </nav>
       </div>
 
-      <div class="col-sm-8 col-md-8 content">
+      <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
 
         <div class="row">
 
