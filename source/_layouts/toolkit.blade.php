@@ -46,8 +46,9 @@
       position: fixed;
       margin-top: 20px;
       margin-bottom: 20px;
+      margin-right: 10px;
       background-color: #fff;
-      z-index: 1;
+        z-index: 1;
     }
 
   </style>
@@ -56,7 +57,7 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
