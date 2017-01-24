@@ -8,7 +8,7 @@ pageTitle: Front Matter
 
 ---
 
-##Manage Content
+# Manage Content
 
 ---
 
@@ -17,7 +17,7 @@ pageTitle: Front Matter
 
 ---
 
-##Enduring Activities
+##Enduring
 <!--*(.+)\/activity\/\d{4}*-->
 
 ---
@@ -98,7 +98,7 @@ Heading
 
 ---
 
-##Live Events
+##Live
 <!--*(.+)\/live\/\d{4}*-->
 
 ![image of live page](../img/front-matter/live_page.png)

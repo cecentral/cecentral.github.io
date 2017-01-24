@@ -44,9 +44,9 @@
 
     .sidebar-nav {
       position: fixed;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      margin-right: 10px;
+      /*margin-top: 20px;*/
+      /*margin-bottom: 20px;*/
+      /*margin-right: 10px;*/
       background-color: #fff;
         z-index: 1;
     }
@@ -57,7 +57,7 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
@@ -78,7 +78,7 @@
 <div class="container-fluid">
     <div class="row">
 
-    <div class="container col-sm-2 col-md-2 col-lg-2">
+    <div class="container-fluid col-sm-2 col-md-2 col-lg-2">
         <nav class="sidebar-nav">
             <div class="collapse navbar-collapse" id="sidebar-collapse">
                 <ul class="nav nav-pills nav-stacked">
@@ -105,7 +105,7 @@
         </nav>
     </div>
 
-          <div class="col-sm-8 col-md-8 col-lg-8">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-8 col-lg-8">
 
             <div class="row">
 

@@ -8,11 +8,11 @@ pageTitle: Activities
 
 ---
 
-##[Activity Quick Search](/activity-dialog)
+##[Quick Search](/activity-dialog)
 
 ---
 
-[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
+[![image of Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
 
 ---
 >**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
@@ -20,11 +20,11 @@ pageTitle: Activities
 
 ---
 
-##**Manage Activities**
+##**Manage**
 
 ---
 
-##[PJC Dashboard](/activity-dialog)
+##[Dashboard](/activity-dialog)
 
 ---
 
@@ -86,11 +86,11 @@ pageTitle: Activities
 
 ---
 
-##[Add New Activity](/activity-dialog)
+##[Add New](/activity-dialog)
 
 ---
 
-[![image of Add New Activity](../img/activity/AddNewActivity.png)](/activity-dialog)
+[![image of Add New](../img/activity/AddNewActivity.png)](/activity-dialog)
 
 ---
 
@@ -98,11 +98,11 @@ pageTitle: Activities
 
 ---
 
-##My Upcoming Activities
+##Upcoming
 
 ---
 
-[![image of My Upcoming Activities](../img/activity/MyUpcomingActivities.png)](/activity-dialog)
+[![image of Upcoming](../img/activity/MyUpcomingActivities.png)](/activity-dialog)
 
 ---
 

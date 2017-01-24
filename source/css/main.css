@@ -5745,10 +5745,9 @@ html, body {
   color: #495155;
   /*color: #636b6f;*/
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  height: 200vh;
-  font-size: 110%;
-  line-height: 125%;
+  font-weight: 300;
+  font-size: 100%;
+  line-height: normal;
   margin: 0; }
 
 .full-height {
