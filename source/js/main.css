@@ -5745,9 +5745,10 @@ html, body {
   color: #495155;
   /*color: #636b6f;*/
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  font-size: 100%;
-  line-height: normal;
+  font-weight: 200;
+  height: 200vh;
+  font-size: 110%;
+  line-height: 125%;
   margin: 0; }
 
 .full-height {
@@ -5864,5 +5865,40 @@ blockquote {
 .atlwdg-popup {
   height: 90% !important;
   width: 80% !important; }
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */ }
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    top: 60px;
+    transition: all 0.25s ease-out; }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -50%;
+    /* 6 columns */ }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%;
+    /* 6 columns */ }
+  .row-offcanvas-right.active {
+    right: 50%;
+    /* 6 columns */ }
+  .row-offcanvas-left.active {
+    left: 50%;
+    /* 6 columns */ }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    /* 6 columns */ } }
 
 /*# sourceMappingURL=main.css.map */

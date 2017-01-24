@@ -12,7 +12,7 @@ pageTitle: Accreditation
 
 ---
 
-##Designed to Change Competence?
+##Competence
 ###level 1 in ascending precedence.
 
 >Will changes in Competence Be Measured?
@@ -20,19 +20,19 @@ pageTitle: Accreditation
 
 ---
 
-##Designed to Change Performance?
+##Performance
 ###level 2 in ascending precedence.
 >A short description of Designed to Change Performance.
 
 ---
 
-##Designed to Change Patient Outcomes?:
+##Outcomes:
 ###level 3 in ascending precedence.
 >A short description of Designed to Change Patient Outcomes.
 
 ---
 
-##ACGME Competencies
+##ACGME
 
 >- Patient Care
 >- Medical knowledge
@@ -43,7 +43,7 @@ pageTitle: Accreditation
 
 ---
 
-##IOM Competencies
+##IOM
 
 >- Provide patient-centered care
 >- Work in interdisciplinary teams
@@ -53,7 +53,7 @@ pageTitle: Accreditation
 
 ---
 
-##IPE Competencies
+##IPE
 
 >- Values/Ethics for Interprofessional Practice
 >- Roles/Responsibilities

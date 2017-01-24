@@ -32,11 +32,11 @@ pageTitle: Activity Dialog
 
 ---
 
-##[Activity Sessions](/activity-sessions)
+##[Sessions](/activity-sessions)
 
 ---
  
-[![image of Activity Sessions](../img/activity/Sessions.png)](/activity-sessions)
+[![image of Sessions](../img/activity/Sessions.png)](/activity-sessions)
 
 ---
 
@@ -104,11 +104,11 @@ pageTitle: Activity Dialog
 
 ---
 
-##[Credit Recipients](/credit-recipients)
+##[Recipients](/credit-recipients)
 
 ---
 
-[![image of Credit Recipients](../img/activity/get_credit.png)](/credit-recipients)
+[![image of Recipients](../img/activity/get_credit.png)](/credit-recipients)
 
 ---
 
@@ -128,11 +128,11 @@ pageTitle: Activity Dialog
 
 ---
 
-##[Registration Form](/registration-form)
+##[Registration](/registration-form)
 
 ---
 
-[![image of Registration Form](../img/activity/outcomes.png)](/registration-form)
+[![image of Registration](../img/activity/outcomes.png)](/registration-form)
 
 ---
 

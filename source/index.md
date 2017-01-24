@@ -64,10 +64,6 @@ pageTitle: Guidebook
 
 ---
 
-##Ideas
-
----
-
 ##Tools
 
 ---

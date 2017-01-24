@@ -80,30 +80,34 @@
 
 <div class="container-fluid">
 
-    <div class="row">
+    <div class="row row-offcanvas row-offcanvas-left">
+        <p class = "pull-left visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
+                Toggle nav
+            </button>
+        </p>
 
-        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar">
-            <nav class="sidebar-nav navbar-right">
-                <ul id="sidebar" class="nav nav-pills nav-stacked">
-                    <li class="nav-header">{{ $pageTitle }}
-                        <span class="glyphicon glyphicon-link"></span>
-                    </li>
-                </ul>
-            </nav>
-        </div>{{--col--}}
+        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar-offcanvas">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <nav class="sidebar-nav navbar-left">
+                    <ul id="sidebar" class="nav nav-pills nav-stacked">
+                        <li class="nav-header">{{ $pageTitle }}
+                            <span class="glyphicon glyphicon-link"></span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>{{--col--}}
+        </div>
 
         <div class = "container col-sm-8 col-md-8 col-lg-8">
-
             <div class="flex-center position-ref">
 
                 @yield('body')
 
             </div>{{--flex--}}
-
         </div>{{--col--}}
 
-
-        <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
+        <div class="container col-sm-2 col-md-2 col-lg-2 sidebar">
             <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
             <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
             <span class="glyphicon glyphicon-star-empty"></span>
@@ -142,9 +146,6 @@
             });
         });
     });
-
-
-
 
 </script>
 

@@ -16,11 +16,11 @@ pageTitle: Details
 
 ---
 
-##[Publishing options](/publishing-options)
+##[Publishing](/publishing-options)
 
 ---
 
-[![image of Publishing Options](../img/activity/publishing_options.png)](/publishing-options)
+[![image of Publishing](../img/activity/publishing_options.png)](/publishing-options)
 
 ---
 

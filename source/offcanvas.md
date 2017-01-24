@@ -1,5 +1,5 @@
 ---
-extends: _layouts.subpage
+extends: _layouts.subpagealt
 section: sub-page-body
 pageTitle: Activities
 ---
@@ -8,11 +8,11 @@ pageTitle: Activities
 
 ---
 
-##[Quick Search](/activity-dialog)
+##[Activity Quick Search](/activity-dialog)
 
 ---
 
-[![image of Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
+[![image of Activity Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
 
 ---
 >**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
@@ -20,11 +20,11 @@ pageTitle: Activities
 
 ---
 
-##**Manage**
+##**Manage Activities**
 
 ---
 
-##[Dashboard](/activity-dialog)
+##[PJC Dashboard](/activity-dialog)
 
 ---
 
@@ -86,11 +86,11 @@ pageTitle: Activities
 
 ---
 
-##[Add New](/activity-dialog)
+##[Add New Activity](/activity-dialog)
 
 ---
 
-[![image of Add New](../img/activity/AddNewActivity.png)](/activity-dialog)
+[![image of Add New Activity](../img/activity/AddNewActivity.png)](/activity-dialog)
 
 ---
 
@@ -98,11 +98,11 @@ pageTitle: Activities
 
 ---
 
-##Upcoming
+##My Upcoming Activities
 
 ---
 
-[![image of Upcoming](../img/activity/MyUpcomingActivities.png)](/activity-dialog)
+[![image of My Upcoming Activities](../img/activity/MyUpcomingActivities.png)](/activity-dialog)
 
 ---
 
