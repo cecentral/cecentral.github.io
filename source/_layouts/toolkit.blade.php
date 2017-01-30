@@ -86,7 +86,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" class="btn disabled pull-left" disabled>Preface</a></li>
-                            <li><a href="/">Table of Contents</a></li>
+                            <li><a href="/">Index</a></li>
                             <li><a href="/activities" class="btn pull-left">Activities</a></li>
                             <li><a href="/members" class="btn pull-left">Members</a></li>
                             <li><a href="/clients" class="btn pull-left">Clients</a></li>
