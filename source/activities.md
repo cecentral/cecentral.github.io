@@ -12,11 +12,11 @@ pageTitle: Activities
 
 ---
 
-[![image of Quick Search](../img/activity/FindActivity.png)](/activity-dialog)
+[![image of Quick Search](../img/activity/QuickSearch.png)](/activity-dialog)
 
 ---
->**_Find an Activity_**: Search here using a Keyword, Activity Code, or Activity ID. 
->Click the checkbox to enable searching by date range.
+
+>Search here using a Keyword, Activity Code, or Activity ID.
 
 ---
 
@@ -28,10 +28,8 @@ pageTitle: Activities
 
 ---
 
-> Notes
-> ...
-> ...
-> ...
+> The Project Dashboard provides search and filters for each of 7 category tabs.
+> These are Activities, Members, Clients, Reports, Finance, Ideas and Tools.
 
 ---
 
@@ -82,7 +80,8 @@ pageTitle: Activities
 
 ---
 
->A short description of Find Activity.
+>Find an Activity: search here using a Keyword, Activity Code, or Activity ID. 
+>Click the checkbox to enable searching by date range.
 
 ---
 
@@ -94,7 +93,9 @@ pageTitle: Activities
 
 ---
 
->A short description of Add New Activity.
+>Add New Activity in the Manage Activities sidebar on the Activities dashboard
+> allows you to fill in the initial details for a new activity. This screen will
+> appear again as the Activity Details dialog when editing an existing activity.
 
 ---
 
@@ -106,7 +107,8 @@ pageTitle: Activities
 
 ---
 
->A short description of My Upcoming Activities.
+>Provides a list of approaching activities the user is associated with as
+> Coordinator or Staff Associate. $$$
 
 ---
 
@@ -118,6 +120,10 @@ pageTitle: Activities
 
 ---
 
->A short description of My Clients.
+>Provides a list of Clients the user is associated with as a Client Contact.
+> For more information regarding Clients and Client Contacts refer to
+> Clients in the navigation menu.  $$$
 
 ---
+
+>$$$ needs citation
