@@ -34,7 +34,9 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Credit.
+>The Credit menu dialog will show in the sidebar for enduring activities and
+> live events without sessions. Credits are selected from a list of options and
+> attached to the activity here.
 
 ---
 
@@ -46,7 +48,10 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Activity Sessions.
+>The Sessions menu dialog (referred to as the Session Editor) replaces the Credit
+> menu dialog in the sidebar for live events with sessions. The "has sessions"
+> option must be selected in the Details dialog or this menu item will not
+> display. Credit is attached per session.
 
 ---
 
@@ -58,7 +63,9 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Agenda.
+>The Agenda menu dialog only appears in the sidebar after a live event has had
+> its first session defined. The agenda is meant to serve as an easily readable
+> reference. Any changes to the Agenda must be made in the Session Editor.
 
 ---
 
@@ -70,7 +77,10 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Front Matter.
+>The Front Matter menu dialog (referred to as the Front Matter Editor) is where
+> materials related to the timing, location, sponsorship and focus of an activity
+> or event are attached to the Activity for publishing on cecentral.com. Front
+> Matter items are selected from a list containing up to 22 options.
 
 ---
 
@@ -82,7 +92,9 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Assets.
+>The Assets menu dialog allows the upload of files related to the accreditation,
+> administration, faculty, and finances of an activity. General notes and
+> teaching materials are also attached to activities here.
 
 ---
 
@@ -94,7 +106,10 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Faculty.
+>The Faculty menu dialog is where the faculty's cecentral.com membership accounts
+> are associated with an activity. The dialog contains a Quick Entry form, for
+> use in cases where faculty do not already have an account.  The Quick Entry
+> form generates new membership accounts.
 
 ---
 
@@ -106,7 +121,14 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Registrants.
+>The Registrants menu dialog is where current registrants are displayed in a
+> list. The membership accounts are searchable from here, with the option to add
+> a member as a registrant. This dialog contains Quick Entry and Full Entry
+> forms for student accounts. It is advised these be used sparingly or not at
+> all. Use of these forms frequently leads to data fragmentation due to the
+> creation of multiple accounts for one user. Merging duplicate accounts can
+> be done through Project Central (carefully). No database operations will be
+> performed to correct account entry and merge errors.
 
 ---
 
@@ -114,7 +136,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Recipients](../img/activity/get_credit.png)](/credit-recipients)
+[![image of Recipients](../img/activity/CreditRecipients.png)](/credit-recipients)
 
 ---
 
@@ -126,7 +148,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Sponsors](../img/activity/get_credit.png)](/sponsors)
+[![image of Sponsors](../img/activity/Sponsors.png)](/sponsors)
 
 ---
 
@@ -138,7 +160,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Registration](../img/activity/outcomes.png)](/registration-form)
+[![image of Registration](../img/activity/RegistrationForm.png)](/registration-form)
 
 ---
 
@@ -150,7 +172,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Media](../img/activity/topics.png)](/media)
+[![image of Media](../img/activity/Media.png)](/media)
 
 ---
 
@@ -162,7 +184,7 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of Assessments](../img/activity/topics.png)](/assessments)
+[![image of Assessments](../img/activity/Assessments.png)](/assessments)
 
 ---
 
@@ -174,10 +196,12 @@ pageTitle: Activity Dialog
 
 ---
 
-[![image of More...](../img/activity/topics.png)](/more)
+[![image of More...](../img/activity/More.png)](/more)
 
 ---
 
->A short description of More...
+>Infrequently used menu dialogs are assigned to this menu overflow dialog.
+> Activity Finances, Budget, Configurarion, Coupon Codes, eLearning Community,
+> Notes, Notifications, and Outcomes all open from here.
 
 ---

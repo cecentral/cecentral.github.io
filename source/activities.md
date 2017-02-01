@@ -20,10 +20,6 @@ pageTitle: Activities
 
 ---
 
-##**Manage**
-
----
-
 ##[Dashboard](/activity-dialog)
 
 ---
