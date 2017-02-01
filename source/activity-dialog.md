@@ -44,7 +44,7 @@ pageTitle: Activity Dialog
 
 ---
  
-[![image of Sessions](../img/activity/Sessions.png)](/activity-sessions)
+[![image of Sessions](../img/activity/Sessions.png)](/sessions)
 
 ---
 
