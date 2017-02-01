@@ -16,7 +16,13 @@ pageTitle: Activity Dialog
 
 ---
 
->A short description of Details.
+>The Activity Details menu dialog is the initial dialog screen for creating a new
+> activity. The important top-level details for an activity are assigned in this 
+> dialog.  You will title the activity here, assign keywords for search, make
+> personnel selections, and determine visibility here.  Additionally this is
+> where start date and end date are defined. Details regarding Accrediation,
+> Location, Outcomes and Topics are chosen from selections here. Click through
+> for additional information.
 
 ---
 
